@@ -1,5 +1,5 @@
-title: Architect theme
-description: Architect is a theme for GitHub Pages.
+title: Oliver's Blog
+description: Oliver's Blog is a personal page for Zhixiong Yue.
 show_downloads: true
 google_analytics:
-theme: 
+theme: jekyll-theme-architect
