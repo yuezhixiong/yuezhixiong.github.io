@@ -6,6 +6,6 @@ layout: default
 
 [GitHub](https://github.com/Oliver-Q)
 
-[LinkedIn](www.linkedin.com/in/zhi-xiong-yue-55780b102)
+[LinkedIn](http://linkedin.com/in/zhi-xiong-yue-55780b102)
 
 [back](./)
