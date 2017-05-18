@@ -11,7 +11,10 @@ For more info, please see [my personal pages](./personal-page).
 
 * * *
 
-# [](#header-1)My Projects
+# [](#header-1)My projects
+
+## [](#header-2)This blog
+This blog page is developed by [jekyll](http://jekyll.com.cn/) and deploying on [GitHub Pages](https://pages.github.com/).
 
 * * *
 
