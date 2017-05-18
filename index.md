@@ -4,10 +4,17 @@ layout: default
 
 ---
 # [](#header-1)Who am i ?
-[No system is safe](http://www.imdb.com/title/tt3042408/) but here is [my personal information](./personal-page).
+By and large, I'm an undergraduate student in [Southern University of Science and Technology](http://www.sustc.edu.cn/)
+
+For more info, please see [my personal pages](./personal-page).
 
 
 * * *
+
+# [](#header-1)My Projects
+
+* * *
+
 # [](#header-1)My trends
 
 ## [](#header-2)2017.5.17
