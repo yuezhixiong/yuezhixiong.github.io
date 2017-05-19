@@ -15,7 +15,7 @@ For more info, please see [my personal pages](./personal-page).
 ## [](#header-2)Deep learning
 
 ## [](#header-2)Optical Character Recognition
-## [](#header-3)[Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
+### [](#header-3)[Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
 A curated list of resources dedicated to scene text localization and recognition. 
 
 ## [](#header-2)Block Chain
