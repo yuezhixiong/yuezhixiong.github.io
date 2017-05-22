@@ -9,7 +9,7 @@ layout: default
 By and large, I'm an undergraduate student in [Department of Computer Science and Engineering](http://cse.sustc.edu.cn/) at [Southern University of Science and Technology](http://www.sustc.edu.cn/) working with my academic advisor [Qi Wang](http://www.cse.ust.hk/~qiwang/).
 
 ## [](#header-2)Algorithm Intern, Malong Tech
-On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and Sheng Guo in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
+On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
 * * *
 
