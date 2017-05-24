@@ -22,8 +22,8 @@ A curated list of resources dedicated to scene text localization and recognition
 ## [](#header-2)Deep learning
 ### [](#header-3)[LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
 One suggested study route is MLP->RNN->LSTM for a beginner.
-
-
+### [](#header-3)[Object detection & R-CNN Resources.md](./DL/Object detection & R-CNN Resources.md)
+Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 * * *
 
 # [](#header-1)My projects
