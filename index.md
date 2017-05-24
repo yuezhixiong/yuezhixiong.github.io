@@ -36,6 +36,6 @@ This blog page is developed by [Jekyll](http://jekyll.com.cn/) and deploying on 
 # [](#header-1)My trends
 
 ## [](#header-2)2017.5.17
-[Oliver's Blog](https://oliver-q.github.io/) has been established!
+[Oliver.Q's Blog](https://oliver-q.github.io/) has been established!
 
 ## [](#header-2)2017.5.26
