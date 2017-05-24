@@ -1,7 +1,7 @@
-#Object detection & R-CNN Resources
+# Object detection & R-CNN Resources
 Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 
-##Reading some paper
+## Reading some paper
  
 1. R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In CVPR, 2014.[`paper`]
 2. R. Girshick. Fast R-CNN. In ICCV, 2015.[`paper`]
@@ -14,7 +14,7 @@ Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD 
 9. M Liao, B Shi, X Bai, X Wang, W Liu. TextBoxes: A Fast Text Detector with a Single Deep Neural Network. In arXiv preprint arXiv:1611.06779, 2016.[`paper`]
 10. Zheng Zhang, Chengquan Zhang, Wei Shen, Cong Yao, Wenyu Liu, Xiang Bai. Multi-Oriented Text Detection with Fully Convolutional Networks. In TIP, 2017.[`paper`]
  
-##Try some code
+## Try some code
  
 1. Fast R-CNN:[`code`] (https://github.com/rbgirshick/py-faster-rcnn)
 2. SSD:[`code`] (https://github.com/weiliu89/caffe/tree/ssd)

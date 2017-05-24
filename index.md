@@ -3,7 +3,7 @@
 layout: default
 
 ---
-# [](#header-1)Who am i ?
+# Who am i ?
 
 ## [](#header-2)Undergraduate, SUSTech
 By and large, I'm an undergraduate student in [Department of Computer Science and Engineering](http://cse.sustc.edu.cn/) at [Southern University of Science and Technology](http://www.sustc.edu.cn/) working with my academic advisor [Qi Wang](http://www.cse.ust.hk/~qiwang/).
@@ -23,7 +23,7 @@ A curated list of resources dedicated to scene text localization and recognition
 ### [](#header-3)[LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
 One suggested study route is MLP->RNN->LSTM for a beginner.
 ### [](#header-3)[Object detection & R-CNN Resources.md](./DL/Object detection & R-CNN Resources.md)
-Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
+Study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 * * *
 
 # [](#header-1)My projects
