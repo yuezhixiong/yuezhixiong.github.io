@@ -1,4 +1,4 @@
-# Object detection & R-CNN Resources
+# Object Detection & R-CNN Resources
 Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 
 ## Reading some paper
@@ -6,7 +6,7 @@ Suggested study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD 
 1. R. Girshick, J. Donahue, T. Darrell, and J. Malik. Rich feature hierarchies for accurate object detection and semantic segmentation. In CVPR, 2014.[`paper`](https://arxiv.org/pdf/1311.2524.pdf)
 2. R. Girshick. Fast R-CNN. In ICCV, 2015.[`paper`](http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Girshick_Fast_R-CNN_ICCV_2015_paper.pdf)
 3. S. Ren, K. He, R. Girshick, and J. Sun. Faster R-CNN: Towards real-time object detection with region proposal networks. In NIPS, 2015.[`paper`]
-4. W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot multibox detector. arXiv:1512.02325v2, 2015.[`paper`]
+4. W. Liu, D. Anguelov, D. Erhan, C. Szegedy, and S. Reed. SSD: Single shot multibox detector. arXiv:1512.02325v2, 2015.[`paper`](http://arxiv.org/pdf/1512.02325v2.pdf)
 5. J. Dai, Y. Li, K. He, and J. Sun. R-fcn: Object detection via region-based fully convolutional networks. In NIPS, 2016.[`paper`]
 6. Jiahui Yu1, Yuning Jiang, Zhangyang Wang, Zhimin Cao. Thomas Huang.UnitBox: An Advanced Object Detection Network. In arXiv, 16.08.[`paper`]
 7. Zhi Tian, Weilin Huang, Tong He, Pan He and Yu Qiao. Detecting Text in Natural Image with Connectionist Text Proposal Network. In ECCV, 2016.[`paper`]
