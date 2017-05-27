@@ -2,28 +2,15 @@
 
 ## Version info
 Python 2.4 or 2.5 (test with 2.7)
+
 NLTK2.0 (downward compatibility, test with 3.2.3)
+
 Anaconda2 4.3
 
 ## Code
 ```python
 from nltk.book import *
 ```
-
-
-```python
-text1
-```
-
-
-```python
-text2
-```
-
-
-    <Text: Sense and Sensibility by Jane Austen 1811>
-
-
 
 ```python
 text1.concordance("monstrous")

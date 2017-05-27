@@ -43,4 +43,4 @@ This blog page is developed by [Jekyll](http://jekyll.com.cn/) and deploying on 
 Oliver.Q's Blog has been established!
 
 ## 2017.5.26
-Go through the onboarding process of Algorithm Intern position in Malong Technologies.
+Officially joining in the Malong big family~
