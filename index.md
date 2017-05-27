@@ -26,7 +26,7 @@ One suggested study route is MLP->RNN->LSTM for a beginner.
 Study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 
 ## Nature Language Processing
-### [Word Frequence Counting with NLTK](./NLP/Word Frequence Counting with NLTK.md)
+### [Word Frequence Counting with NLTK](./NLP/Word Frequence Counting with NLTK.html)
 General usage of NLTK for natural language processing.
 * * *
 
