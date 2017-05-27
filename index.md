@@ -24,6 +24,10 @@ A curated list of resources dedicated to scene text localization and recognition
 One suggested study route is MLP->RNN->LSTM for a beginner.
 ### [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
 Study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
+
+## Nature Language Processing
+### [Word Frequence Counting with NLTK](./NLP/Word Frequence Counting with NLTK.md)
+General usage of NLTK for natural language processing.
 * * *
 
 # My projects
