@@ -36,6 +36,7 @@ This blog page is developed by [Jekyll](http://jekyll.com.cn/) and deploying on 
 # My trends
 
 ## 2017.5.17
-[Oliver.Q's Blog](https://oliver-q.github.io/) has been established!
+Oliver.Q's Blog has been established!
 
 ## 2017.5.26
+Go through the onboarding process of Algorithm Intern position in Malong Technologies.
