@@ -19,7 +19,7 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 ### [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
 A curated list of resources dedicated to scene text localization and recognition. 
 
-## Deep learning
+## Deep Learning
 ### [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
 One suggested study route is MLP->RNN->LSTM for a beginner.
 ### [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
