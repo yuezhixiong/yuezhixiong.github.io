@@ -12,22 +12,26 @@ By and large, I'm an undergraduate student in [Department of Computer Science an
 On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
 * * *
+# My papers
+
+## 
+
+* * *
 
 # My topics
 
-## Optical Character Recognition
-### [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
+## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)[`OCR`](./OCR/Optical Character Recognition.md)
 A curated list of resources dedicated to scene text localization and recognition. 
 
-## Deep Learning
-### [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
+## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)[`DL`](./DL/Deep Learning.md)
 One suggested study route is MLP->RNN->LSTM for a beginner.
-### [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
+
+## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)[`DL`](./DL/Deep Learning.md)
 Study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
 
-## Nature Language Processing
-### [Word Frequence Counting with NLTK](./NLP/Word Frequence Counting with NLTK.md)
+## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)[`Other`](./Other/Other.md)
 General usage of NLTK for natural language processing.
+
 * * *
 
 # My projects
