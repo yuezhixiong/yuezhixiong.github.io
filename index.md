@@ -18,19 +18,19 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 * * *
 
-# My topics
+# My Articles
 
 ## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
-Catalog: [`OCR`](./OCR/Optical Character Recognition.md)
+KEYWORDS [`Optical Character Recognition`](./OCR/Optical Character Recognition.md)[`Deep Learning`](./DL/Deep Learning.md)
 
 ## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
-Catalog: [`DL`](./DL/Deep Learning.md)
+KEYWORDS [`Deep Learning`](./DL/Deep Learning.md)
 
 ## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
-Catalog: [`DL`](./DL/Deep Learning.md)
+KEYWORDS [`Deep Learning`](./DL/Deep Learning.md)
 
 ## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
-Catalog: [`Other`](./Other/Other.md)
+KEYWORDS [`Other`](./Other/Other.md)`Nature Language Processing`
 
 * * *
 
