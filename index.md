@@ -20,17 +20,17 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 # My topics
 
-## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)[`OCR`](./OCR/Optical Character Recognition.md)
-A curated list of resources dedicated to scene text localization and recognition. 
+## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
+Catalog: [`OCR`](./OCR/Optical Character Recognition.md)
 
-## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)[`DL`](./DL/Deep Learning.md)
-One suggested study route is MLP->RNN->LSTM for a beginner.
+## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
+Catalog: [`DL`](./DL/Deep Learning.md)
 
-## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)[`DL`](./DL/Deep Learning.md)
-Study path: RCNN -> SPPNET -> Fast-RCNN -> Faster-RCNN -> YOLO -> SSD -> R-FCN 
+## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
+Catalog: [`DL`](./DL/Deep Learning.md)
 
-## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)[`Other`](./Other/Other.md)
-General usage of NLTK for natural language processing.
+## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
+Catalog: [`Other`](./Other/Other.md)
 
 * * *
 
