@@ -15,23 +15,23 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 # My papers
 
-## An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions`Draft` [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
+## An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
 * * *
 
 # My Articles
 
 ## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
-Keywords: [`OpticalCharacterRecognition`](./OCR/Optical Character Recognition.md) [`DeepLearning`](./DL/Deep Learning.md)
+Keywords: [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
 
 ## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
-Keywords: [`DeepLearning`](./DL/Deep Learning.md)
+Keywords: [`DL`](./DL/Deep Learning.md) `RNN` `LSTM`
 
 ## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
-Keywords: [`DeepLearning`](./DL/Deep Learning.md) `ComputerVision`
+Keywords: [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
 
 ## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
-Keywords: [`Other`](./Other/Other.md) `NatureLanguageProcessing`
+Keywords: [`Other`](./Other/Other.md) `NLP` `NLTK`
 
 * * *
 
