@@ -12,31 +12,32 @@ By and large, I'm an undergraduate student in [Department of Computer Science an
 On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
 * * *
+
 # My papers
 
-## 
+## An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions`Draft` [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
 * * *
 
 # My Articles
 
 ## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
-KEYWORDS [`Optical Character Recognition`](./OCR/Optical Character Recognition.md)[`Deep Learning`](./DL/Deep Learning.md)
+Keywords: [`OpticalCharacterRecognition`](./OCR/Optical Character Recognition.md) [`DeepLearning`](./DL/Deep Learning.md)
 
 ## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
-KEYWORDS [`Deep Learning`](./DL/Deep Learning.md)
+Keywords: [`DeepLearning`](./DL/Deep Learning.md)
 
 ## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
-KEYWORDS [`Deep Learning`](./DL/Deep Learning.md)
+Keywords: [`DeepLearning`](./DL/Deep Learning.md) `ComputerVision`
 
 ## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
-KEYWORDS [`Other`](./Other/Other.md)`Nature Language Processing`
+Keywords: [`Other`](./Other/Other.md) `NatureLanguageProcessing`
 
 * * *
 
 # My projects
 
-## Oliver's blog
+## Oliver.Q's blog
 This blog page is developed by [Jekyll](http://jekyll.com.cn/) and deploying on [GitHub Pages](https://pages.github.com/).
 
 * * *
