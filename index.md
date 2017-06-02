@@ -11,34 +11,24 @@ By and large, I'm an undergraduate student in [Department of Computer Science an
 ## Algorithm Intern, Malong Tech
 On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
-* * *
 
 # My papers
+An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
-## An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
-* * *
 
 # My Articles
 
-## [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md)
-Keywords: [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
+>[Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
 
-## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
+>[LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
 Keywords: [`DL`](./DL/Deep Learning.md) `RNN` `LSTM`
-
-## [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
-Keywords: [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
-
-## [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
-Keywords: [`Other`](./Other/Other.md) `NLP` `NLTK`
-
 * * *
-
-# My projects
-
-## Oliver.Q's blog
-This blog page is developed by [Jekyll](http://jekyll.com.cn/) and deploying on [GitHub Pages](https://pages.github.com/).
+[R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md)
+Keywords: [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
+* * *
+[Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md)
+Keywords: [`Other`](./Other/Other.md) `NLP` `NLTK`
 
 * * *
 
