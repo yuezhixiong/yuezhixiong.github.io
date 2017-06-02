@@ -13,19 +13,22 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 
 # Publications
-An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
+
+## 2017 September
+*   An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
 
 
-# 
+# Posts
 
->[Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
->[LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) `RNN` `LSTM`
->[R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
->[Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md) [`Other`](./Other/Other.md) `NLP` `NLTK`
+## 2017 May
+*   [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
+*   [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) `RNN` `LSTM`
+*   [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
+*   [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md) [`Other`](./Other/Other.md) `NLP` `NLTK`
 
 
-# My trends
+# Events
 
 ## 2017.5.17
 Oliver.Q's Blog has been established!
