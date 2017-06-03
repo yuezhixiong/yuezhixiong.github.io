@@ -24,9 +24,9 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 ## 2017 May
 *   [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
-*   [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) `RNN` `LSTM`
-*   [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md) `CV` `R-CNN` `SSD`
-*   [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md) [`Other`](./Other/Other.md) `NLP` `NLTK`
+*   [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) 
+*   [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md)
+*   [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md) [`Other`](./Other/Other.md)
 
 * * *
 
