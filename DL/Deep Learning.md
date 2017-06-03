@@ -1,4 +1,4 @@
-# Deep Learning Articles
+# Deep Learning
 
 ## [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md)
 One suggested study route is MLP->RNN->LSTM for a beginner.

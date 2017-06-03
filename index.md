@@ -15,14 +15,14 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 # Publications
 
-## 2017 September
+## September 2017
 *   An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
 * * *
 
 # Posts
 
-## 2017 May
+## May 2017
 *   [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
 *   [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) 
 *   [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md)
@@ -32,8 +32,8 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 # Events
 
-## 2017.5.17
+## May 17, 2017
 Oliver.Q's Blog has been established!
 
-## 2017.5.26
+## May 26, 2017
 Officially joining in the Malong big family~
