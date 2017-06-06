@@ -18,6 +18,13 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 * * *
 
+## Experiences
+
+### Atlanta Summer Program
+Took part in 2016 [Atlanta Summer Program](http://www.asp.gatech.edu/). Studied English as second language in Language Institute, [Georgia Institute of Technology](http://www.gatech.edu/).
+  
+* * *
+
 ## Recent Events
 
 ### May 17, 2017
