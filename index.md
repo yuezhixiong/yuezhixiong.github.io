@@ -20,6 +20,9 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 ## Experiences
 
+### Open FIESTA
+Took part in 2015 [Open FIESTA](http://en.fiesta.tsinghua.edu.cn/) in Graduate School at Shenzhen, [Tsinghua University](http://www.tsinghua.edu.cn/publish/newthuen/index.html).
+
 ### Atlanta Summer Program
 Took part in 2016 [Atlanta Summer Program](http://www.asp.gatech.edu/). Studied English as second language in Language Institute, [Georgia Institute of Technology](http://www.gatech.edu/).
   
