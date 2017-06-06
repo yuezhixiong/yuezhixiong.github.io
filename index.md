@@ -11,19 +11,13 @@ By and large, I'm an undergraduate student in [Department of Computer Science an
 ## Algorithm Intern, MalongTech
 On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
-* * *
-
-# Publications
-
-## September 2017
-*   An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions(Draft) [`PDF`](./Paper/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
 
 * * *
 
-# Recent Events
+## Recent Events
 
-## May 17, 2017
+### May 17, 2017
 Oliver.Q's Blog has been established!
 
-## May 26, 2017
+### May 26, 2017
 Officially joining in the Malong big family~
