@@ -20,17 +20,7 @@ On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/
 
 * * *
 
-# Posts
-
-## May 2017
-*   [Scene Text Localization & Recognition Resources](./OCR/Scene Text Localization & Recognition Resources.md) [`OCR`](./OCR/Optical Character Recognition.md) [`DL`](./DL/Deep Learning.md)
-*   [LSTM & Recurrent Neural Network Resources](./DL/LSTM & Recurrent Neural Network Resources.md) [`DL`](./DL/Deep Learning.md) 
-*   [R-CNN & Object Detection Resources](./DL/R-CNN & Object Detection Resources.md) [`DL`](./DL/Deep Learning.md)
-*   [Word Frequence Counting with NLTK](./Other/Word Frequence Counting with NLTK.md) [`Other`](./Other/Other.md)
-
-* * *
-
-# Events
+# Recent Events
 
 ## May 17, 2017
 Oliver.Q's Blog has been established!
