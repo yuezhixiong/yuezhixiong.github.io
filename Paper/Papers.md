@@ -1,3 +1,8 @@
+---
+
+layout: default
+
+---
 # Publications
 
 ## September 2017

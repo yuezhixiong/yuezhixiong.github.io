@@ -1,3 +1,8 @@
+---
+
+layout: default
+
+---
 # Posts
 
 ## Deep Learning

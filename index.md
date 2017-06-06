@@ -7,7 +7,7 @@ layout: default
 
 * * *
 
-##Present State
+## Present State
 
 ### Undergraduate, SUSTech
 By and large, I'm an undergraduate student in [Department of Computer Science and Engineering](http://cse.sustc.edu.cn/) at [Southern University of Science and Technology](http://www.sustc.edu.cn/) working with my academic advisor [Qi Wang](http://www.cse.ust.hk/~qiwang/).
