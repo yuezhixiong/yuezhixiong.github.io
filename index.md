@@ -16,8 +16,6 @@ By and large, I'm an undergraduate student in [Department of Computer Science an
 On top of that, I'm working with my mentor [Weilin Huang](http://www.whuang.org/) and [Sheng Guo](http://guoshengcv.github.io/) in [Malong Technologies Co., Ltd.](https://www.malongtech.cn/) as an deep learning algorithm intern.
 
 
-* * *
-
 ## Experiences
 
 ### Open FIESTA
@@ -26,12 +24,6 @@ Took part in 2015 [Open FIESTA](http://en.fiesta.tsinghua.edu.cn/) in Graduate S
 ### Atlanta Summer Program
 Took part in 2016 [Atlanta Summer Program](http://www.asp.gatech.edu/). Studied English as second language in Language Institute, [Georgia Institute of Technology](http://www.gatech.edu/).
   
-* * *
 
-## Recent Events
-
-### May 17, 2017
-Oliver.Q's Blog has been established!
-
-### May 26, 2017
-Officially joining in the Malong big family.
+## Publication
+*   An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions [`PDF`](./Papers/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
