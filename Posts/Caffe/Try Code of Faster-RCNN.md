@@ -2,7 +2,7 @@
 
 ## Bug fixed
 
-###To run the demo
+### To run the demo
 >cd $FRCN_ROOT
 >./tools/demo.py
 
@@ -26,5 +26,4 @@ ImportError: No module named Tkinter
 
 * Solution:
 >sudo yum install tkinter
-
-From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter> 
+**From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>**
