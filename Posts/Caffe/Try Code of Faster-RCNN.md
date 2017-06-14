@@ -7,6 +7,7 @@
 >./tools/demo.py
 
 * Bug:
+
 Traceback (most recent call last):
   File "./tools/demo.py", line 21, in <module>
     import matplotlib.pyplot as plt
@@ -25,6 +26,7 @@ Traceback (most recent call last):
 ImportError: No module named Tkinter
 
 * Solution:
+
 >sudo yum install tkinter
 
-__From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>__
+_From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>_
