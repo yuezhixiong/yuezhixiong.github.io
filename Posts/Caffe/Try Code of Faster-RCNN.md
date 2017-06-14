@@ -26,4 +26,5 @@ ImportError: No module named Tkinter
 
 * Solution:
 >sudo yum install tkinter
-**From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>**
+
+__From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>__
