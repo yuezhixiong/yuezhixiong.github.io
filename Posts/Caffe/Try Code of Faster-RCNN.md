@@ -8,7 +8,7 @@
 
 * Bug:
 
-Traceback (most recent call last):
+>Traceback (most recent call last):
   File "./tools/demo.py", line 21, in <module>
     import matplotlib.pyplot as plt
   File "/usr/lib64/python2.7/site-packages/matplotlib/pyplot.py", line 115, in <module>
@@ -23,6 +23,7 @@ Traceback (most recent call last):
     return _import_module(self.mod)
   File "/usr/lib/python2.7/site-packages/six.py", line 80, in _import_module
     __import__(name)
+
 ImportError: No module named Tkinter
 
 * Solution:
