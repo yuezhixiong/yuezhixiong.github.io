@@ -22,8 +22,10 @@
     return _import_module(self.mod)  
   File "/usr/lib/python2.7/site-packages/six.py", line 80, in _import_module  
     __import__(name)  
+    
 ImportError: No module named Tkinter
 
 * Solution:  
 >sudo yum install tkinter  
+
 _From <https://stackoverflow.com/questions/36327134/matplotlib-error-no-module-named-tkinter>_
