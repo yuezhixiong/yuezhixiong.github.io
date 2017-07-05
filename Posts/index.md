@@ -7,6 +7,7 @@ layout: default
 
 ## Caffe
 *   [Try Code of Faster-RCNN](./Caffe/Try Code of Faster-RCNN.md)
+*   [SynthText of Mandarin Chinese](./Caffe/SynthText of Mandarin Chinese.md)
 
 ## Deep Learning
 *   [Scene Text Localization & Recognition Resources](./DL/Scene Text Localization & Recognition Resources.md)
