@@ -16,4 +16,3 @@ layout: default
 
 ## Others
 *   [Word Frequence Counting with NLTK](./Others/Word Frequence Counting with NLTK.md)
-*	[Preparing Plan for TOEFL](./TOEFL/Preparing Plan for TOEFL.md)
