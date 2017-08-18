@@ -1,10 +1,3 @@
----
-layout: post
-category: deep_learning
-title: OCR
-date: 2015-10-09
----
-
 # Papers
 
 **Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks**
