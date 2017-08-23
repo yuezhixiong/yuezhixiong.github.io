@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Overview of Text Recognition
 
 ## General infomation of text recognition

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # SynthText of Mandarin Chinese
 
 ## Proposal

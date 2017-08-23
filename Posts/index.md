@@ -1,7 +1,7 @@
 ---
 layout: default
-comments: true
 ---
+
 # Posts
 
 ## Deep Learning
@@ -15,7 +15,6 @@ comments: true
 
 ## Text Detection and Recognition
 *   [Scene Text Localization & Recognition Resources](./TDR/Scene Text Localization & Recognition Resources.md)
-*   [OCR Overview](./TDR/OCR Overview.md)
 *   [SynthText of Mandarin Chinese](./TDR/SynthText of Mandarin Chinese.md)
 *   [Overview of Text Recognition](./TDR/Overview of Text Recognition.md)
 
