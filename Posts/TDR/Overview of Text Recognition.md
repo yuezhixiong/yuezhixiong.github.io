@@ -1,6 +1,3 @@
----
-comments: true
----
 
 # Overview of Text Recognition
 
