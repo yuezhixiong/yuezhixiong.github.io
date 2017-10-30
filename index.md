@@ -25,5 +25,5 @@ Took part in 2015 [Open FIESTA](http://en.fiesta.tsinghua.edu.cn/) in Graduate S
 Took part in 2016 [Atlanta Summer Program](http://www.asp.gatech.edu/). Studied English as second language in Language Institute, [Georgia Institute of Technology](http://www.gatech.edu/).
   
 
-## Publication
-*   An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions [`PDF`](./Papers/An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions.pdf) [`Code`](https://github.com/Oliver-Q/ETRS-for-Verbal-Reasoning-Questions)
+## Curriculum Vitae
+*   Zhixiong Yue - CV [`PDF`](./Papers/Zhixiong Yue - CV.pdf)
