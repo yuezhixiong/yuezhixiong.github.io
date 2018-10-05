@@ -7,3 +7,5 @@ follow me on github 按钮已被锁定到GitHub主页
 图片文件必须放在根目录下，否则无法显示
 
 侧边栏图标用在线URL显示，否则无法在子页面显示
+
+总标题信息在_config.yml中修改
