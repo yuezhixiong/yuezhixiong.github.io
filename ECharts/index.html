@@ -5,12 +5,28 @@
     <meta charset="utf-8">
     <!-- 引入 ECharts 文件 -->
     <script src="echarts.js"></script>
+    <script src="jQuery.js"></script>
 </head>
 
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
     <div id="main" style="width: 600px;height:400px;"></div>
     <script type="text/javascript">
+        $.ajax({
+            url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=5min&outputsize=full&apikey=demo',
+            //async: false,
+            dataType: 'text'
+        }).done(successFunction);
+
+        //获取csv所有数据
+        function successFunction(data) {
+            console.log(data);
+            var allRows = data.split(/\r?\n|\r/);
+            var arraytemp1 = new Array();
+            for (var i = 1; i < allRows.length; i++) {
+            }
+        }
+
         // 基于准备好的dom，初始化echarts实例
         var myChart = echarts.init(document.getElementById('main'));
 
