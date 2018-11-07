@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+        media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
     <!--[if lt IE 9]>
@@ -25,9 +26,8 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-            {% if site.github.is_project_page %}
-            <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a> {% endif %} {% if site.github.is_user_page %}
-            <a href="https://github.com/Oliver-Q" class="button"><small>Follow me on</small> GitHub</a> {% endif %}
+            {% if site.github.is_user_page %}
+            <a href="{{ site.github }}" class="button"><small>Follow me on</small> GitHub</a> {% endif %}
         </div>
     </header>
 
@@ -38,14 +38,15 @@
                 {% if page.comments %}
                 <div id="disqus_thread"></div>
                 <script>
-                    (function() { // DON'T EDIT BELOW THIS LINE
+                    (function () { // DON'T EDIT BELOW THIS LINE
                         var d = document, s = d.createElement('script');
                         s.src = 'https://oliver-q-github-io.disqus.com/embed.js';
                         s.setAttribute('data-timestamp', +new Date());
                         (d.head || d.body).appendChild(s);
                     })();
                 </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                        powered by Disqus.</a></noscript>
                 {% endif %}
             </section>
 
@@ -54,21 +55,26 @@
                     <h1>Zhixiong Yue</h1>
                     <hr />
                     <h2>Contact</h2>
-                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/mail_icon.png"> yuezhixiong915@gmail.com
+                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/mail_icon.png">
+                    yuezhixiong915@gmail.com
                     <br>
                     <br>
-                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/location_icon.png"> Shenzhen,Guangdong,China
+                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/location_icon.png">
+                    University of Technology Sydney
                     <br>
                     <hr />
                     <h2>Other Pages</h2>
-                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/github_icon.png"><a href=" https://github.com/Oliver-Q ">GitHub</a><br>
+                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/github_icon.png"><a
+                        href=" https://github.com/Oliver-Q ">GitHub</a><br>
                     <br>
-                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/linkedin_icon.png"><a href="https://www.linkedin.com/in/zhixiong-yue-55780b102/ ">LinkedIn</a><br>
-                    <hr />
-                    
+                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/linkedin_icon.png"><a
+                        href="https://www.linkedin.com/in/zhixiong-yue-55780b102/ ">LinkedIn</a><br>
+                    <br>
+                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/linkedin_icon.png"><a
+                        href="https://www.linkedin.com/in/zhixiong-yue-55780b102/ ">GoogleScholar</a><br>
                 </p>
-            </aside>           
-        </div>       
+            </aside>
+        </div>
     </div>
 
     {% if site.google_analytics %}
@@ -88,8 +94,8 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
-    
-    
+
+
 </body>
 
 </html>
