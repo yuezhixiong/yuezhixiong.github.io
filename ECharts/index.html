@@ -22,7 +22,7 @@
         function successFunction(data) {
             JSON.stringify(data);
 
-            data.replace(/(^\s*)|(\s*$)/g, "");
+            data = data.replace(/\s*/g, "");
             console.log(data);
             // var allRows = data.prase(/\r?\n|\r/);
             var arraytemp1 = new Array();
