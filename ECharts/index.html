@@ -20,9 +20,10 @@
 
         //获取csv所有数据
         function successFunction(data) {
-            console.log(data);
-            var allRows = data.split(/\r?\n|\r/);
+            
+            var allRows = data.prase(/\r?\n|\r/);
             var arraytemp1 = new Array();
+            cosole.log(allRows);
             for (var i = 1; i < allRows.length; i++) {
             }
         }
