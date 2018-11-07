@@ -26,8 +26,6 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-            {% if site.github.is_user_page %}
-            <a href="{{ site.github }}" class="button"><small>Follow me on</small> GitHub</a> {% endif %}
         </div>
     </header>
 
@@ -70,8 +68,8 @@
                     <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/linkedin_icon.png"><a
                         href="https://www.linkedin.com/in/zhixiong-yue-55780b102/ ">LinkedIn</a><br>
                     <br>
-                    <img src="https://raw.githubusercontent.com/Oliver-Q/Oliver-Q.github.io/master/linkedin_icon.png"><a
-                        href="https://www.linkedin.com/in/zhixiong-yue-55780b102/ ">GoogleScholar</a><br>
+                    <img src="{{ site.url }}/assets/images/GS.png"><a
+                        href="https://scholar.google.com/citations?user=-1daeUIAAAAJ&hl">GoogleScholar</a><br>
                 </p>
             </aside>
         </div>
