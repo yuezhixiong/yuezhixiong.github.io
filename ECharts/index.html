@@ -21,8 +21,8 @@
         //获取csv所有数据
         function successFunction(data) {
             JSON.stringify(data);
-
             data = data.replace(/\s*/g, "");
+            JSON.parse(data);
             console.log(data);
             // var allRows = data.prase(/\r?\n|\r/);
             var arraytemp1 = new Array();
