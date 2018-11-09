@@ -10,7 +10,7 @@
 
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 1200px;height:500px;"></div>
+    <div id="main"></div>
     <script type="text/javascript">
         $.ajax({
             url: 'https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=AUD&to_symbol=CNY&outputsize=compact&apikey=GRQ6VGHVCHWIOV9Q&datatype=csv',
@@ -35,22 +35,11 @@
                 bar_array[num - i] = rows[i].split(',')[4];
             }
             // 基于准备好的dom，初始化echarts实例
+            main.style.width = window.innerWidth+'px';
+            main.style.height = window.innerHeight+'px';
             var myChart = echarts.init(document.getElementById('main'));
 
             // 指定图表的配置项和数据
-            // option = {
-            //     xAxis: {
-            //         type: 'category',
-            //         data: timestamp
-            //     },
-            //     yAxis: {
-            //         type: 'value'
-            //     },
-            //     series: [{
-            //         data: bar_array,
-            //         type: 'bar'
-            //     }]
-            // };
             option = {
                 xAxis: {
                     name: 'Date',
