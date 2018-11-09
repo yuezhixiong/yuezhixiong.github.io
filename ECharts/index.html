@@ -10,7 +10,7 @@
 
 <body>
     <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 600px;height:400px;"></div>
+    <div id="main" style="width: 1200px;height:500px;"></div>
     <script type="text/javascript">
         $.ajax({
             url: 'https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=AUD&to_symbol=CNY&outputsize=compact&apikey=GRQ6VGHVCHWIOV9Q&datatype=csv',
@@ -23,7 +23,7 @@
             var bar_array = [];
             var rows = data.split('\n');
             var i;
-            var num = 6;
+            var num = 100;
             for (i = 1; i <= num; i++) {
                 // timestamp,open,high,low,close
                 timestamp[num - i] = rows[i].split(',')[0];
@@ -53,9 +53,16 @@
             // };
             option = {
                 xAxis: {
-                    data: timestamp
+                    name: 'Date',
+                    type: 'category',
+                    data: timestamp,
                 },
-                yAxis: {},
+                yAxis: {
+                    name: 'AUD/CNY',
+                    min: 4.8,
+                    max: 5.1,
+                    maxInterval: 0.1
+                },
                 series: [{
                     type: 'k',
                     // open, close, low, high
