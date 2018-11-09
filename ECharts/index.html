@@ -13,195 +13,62 @@
     <div id="main" style="width: 600px;height:400px;"></div>
     <script type="text/javascript">
         $.ajax({
-            url: 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=MSFT&interval=5min&outputsize=full&apikey=demo',
-            //async: false,
-            dataType: 'text'
+            url: 'https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=AUD&to_symbol=CNY&outputsize=compact&apikey=GRQ6VGHVCHWIOV9Q&datatype=csv',
         }).done(successFunction);
 
-        //获取csv所有数据
+        //jQuery return data
         function successFunction(data) {
-            var obj = JSON.parse(data);
-            console.log(obj["Meta Data"]);
-            // var allRows = data.prase(/\r?\n|\r/);
-            var arraytemp1 = new Array();
-            //cosole.log(allRows);
-            // for (var i = 1; i < allRows.length; i++) {
-            // }
+            var timestamp = new Array();
+            var data_array = [...Array(100)].map(e => Array(4));
+            var bar_array = [];
+            var rows = data.split('\n');
+            var i;
+            var num = 6;
+            for (i = 1; i <= num; i++) {
+                // timestamp,open,high,low,close
+                timestamp[num - i] = rows[i].split(',')[0];
+                data_array[num - i][0] = rows[i].split(',')[1]; //open
+                data_array[num - i][3] = rows[i].split(',')[2]; // high
+                data_array[num - i][2] = rows[i].split(',')[3]; // low
+                data_array[num - i][1] = rows[i].split(',')[4]; // close
+
+                bar_array[num - i] = rows[i].split(',')[4];
+            }
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('main'));
+
+            // 指定图表的配置项和数据
+            // option = {
+            //     xAxis: {
+            //         type: 'category',
+            //         data: timestamp
+            //     },
+            //     yAxis: {
+            //         type: 'value'
+            //     },
+            //     series: [{
+            //         data: bar_array,
+            //         type: 'bar'
+            //     }]
+            // };
+            option = {
+                xAxis: {
+                    data: timestamp
+                },
+                yAxis: {},
+                series: [{
+                    type: 'k',
+                    // open, close, low, high
+                    data: data_array
+                }]
+            };
+
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
         }
 
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('main'));
 
-        // 指定图表的配置项和数据
-        var item1 = {
-            color: '#F54F4A'
-        };
-        var item2 = {
-            color: '#FF8C75'
-        };
-        var item3 = {
-            color: '#FFB499'
-        };
-
-        var data = [{
-            children: [{
-                value: 5,
-                children: [{
-                    value: 1,
-                    itemStyle: item1
-                }, {
-                    value: 2,
-                    children: [{
-                        value: 1,
-                        itemStyle: item2
-                    }]
-                }, {
-                    children: [{
-                        value: 1
-                    }]
-                }],
-                itemStyle: item1
-            }, {
-                value: 10,
-                children: [{
-                    value: 6,
-                    children: [{
-                        value: 1,
-                        itemStyle: item1
-                    }, {
-                        value: 1
-                    }, {
-                        value: 1,
-                        itemStyle: item2
-                    }, {
-                        value: 1
-                    }],
-                    itemStyle: item3
-                }, {
-                    value: 2,
-                    children: [{
-                        value: 1
-                    }],
-                    itemStyle: item3
-                }, {
-                    children: [{
-                        value: 1,
-                        itemStyle: item2
-                    }]
-                }],
-                itemStyle: item1
-            }],
-            itemStyle: item1
-        }, {
-            value: 9,
-            children: [{
-                value: 4,
-                children: [{
-                    value: 2,
-                    itemStyle: item2
-                }, {
-                    children: [{
-                        value: 1,
-                        itemStyle: item1
-                    }]
-                }],
-                itemStyle: item1
-            }, {
-                children: [{
-                    value: 3,
-                    children: [{
-                        value: 1
-                    }, {
-                        value: 1,
-                        itemStyle: item2
-                    }]
-                }],
-                itemStyle: item3
-            }],
-            itemStyle: item2
-        }, {
-            value: 7,
-            children: [{
-                children: [{
-                    value: 1,
-                    itemStyle: item3
-                }, {
-                    value: 3,
-                    children: [{
-                        value: 1,
-                        itemStyle: item2
-                    }, {
-                        value: 1
-                    }],
-                    itemStyle: item2
-                }, {
-                    value: 2,
-                    children: [{
-                        value: 1
-                    }, {
-                        value: 1,
-                        itemStyle: item1
-                    }],
-                    itemStyle: item1
-                }],
-                itemStyle: item3
-            }],
-            itemStyle: item1
-        }, {
-            children: [{
-                value: 6,
-                children: [{
-                    value: 1,
-                    itemStyle: item2
-                }, {
-                    value: 2,
-                    children: [{
-                        value: 2,
-                        itemStyle: item2
-                    }],
-                    itemStyle: item1
-                }, {
-                    value: 1,
-                    itemStyle: item3
-                }],
-                itemStyle: item3
-            }, {
-                value: 3,
-                children: [{
-                    value: 1,
-                }, {
-                    children: [{
-                        value: 1,
-                        itemStyle: item2
-                    }]
-                }, {
-                    value: 1
-                }],
-                itemStyle: item3
-            }],
-            itemStyle: item1
-        }];
-
-        option = {
-            series: {
-                radius: ['15%', '80%'],
-                type: 'sunburst',
-                sort: null,
-                highlightPolicy: 'ancestor',
-                data: data,
-                label: {
-                    rotate: 'radial'
-                },
-                levels: [],
-                itemStyle: {
-                    color: '#ddd',
-                    borderWidth: 2
-                }
-            }
-        };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
     </script>
 </body>
 
