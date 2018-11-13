@@ -4,20 +4,22 @@
 <head>
     <meta charset="utf-8">
     <title>Search</title>
+    <link rel="stylesheet" href="external_style.css">
 </head>
 
 <body>
     <!-- http://www.zhihu.com/search?q= -->
     <form>
         <input name="q" type="text" maxlength="128" />
-        <input type="submit" formaction="http://www.zhihu.com/search" value="Zhihu" />
-        <input type="submit" formaction="http://www.google.com/search" value="Google" />
+        <input type="submit" formaction="http://www.zhihu.com/search" value="Zhihu" id="submit"/>
+        <input type="submit" formaction="http://www.google.com/search" value="Google" id="submit"/>
+        <input type="submit" formaction="http://www.youtube.com/search" value="YouTube" id="submit"/>
     </form>
-    <!-- https://www.baidu.com/s?wd= -->
+    <!-- https://www.baidu.com/s?wd=
     <form>
         <input name="wd" type="text" maxlength="128" />
         <input type="submit" formaction="http://www.baidu.com/s" value="Baidu" />
-    </form>
+    </form> -->
 </body>
 
 </html>
