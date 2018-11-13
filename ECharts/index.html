@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+    <!-- 为ECharts准备一个Dom -->
     <div id="main"></div>
     <script type="text/javascript">
         $.ajax({
@@ -34,9 +34,10 @@
 
                 bar_array[num - i] = rows[i].split(',')[4];
             }
-            // 基于准备好的dom，初始化echarts实例
-            main.style.width = window.innerWidth+'px';
-            main.style.height = window.innerHeight+'px';
+            //EChart大小自适应
+            main.style.width = window.innerWidth-20+'px';
+            main.style.height = window.innerHeight-20+'px';
+            // 基于准备好的dom，初始化echarts实例            
             var myChart = echarts.init(document.getElementById('main'));
 
             // 指定图表的配置项和数据
