@@ -13,6 +13,7 @@
     <div id="main"></div>
     <script type="text/javascript">
         $.ajax({
+            async: false,
             url: 'https://www.alphavantage.co/query?function=FX_DAILY&from_symbol=AUD&to_symbol=CNY&outputsize=compact&apikey=GRQ6VGHVCHWIOV9Q&datatype=csv',
         }).done(successFunction);
 
