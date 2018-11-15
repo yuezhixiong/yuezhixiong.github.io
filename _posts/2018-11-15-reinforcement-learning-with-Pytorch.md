@@ -4,12 +4,6 @@ comments: true
 title: Reinforcement Learning (DQN) Tutorial
 ---
 
-
-```python
-%matplotlib inline
-```
-
-
 Reinforcement Learning (DQN) Tutorial
 =====================================
 **Author**: `Adam Paszke <https://github.com/apaszke>`_
