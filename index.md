@@ -6,10 +6,10 @@ comments: true
 
 # Welcome
 
-I hope you like it!
+Hope you like it! See sidebar for more information.
 
+## Last update
 {{ site.time }}
 
-{{ site.pages }}
-
+## All posts
 {{ site.posts }}
