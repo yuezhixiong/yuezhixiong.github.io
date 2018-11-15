@@ -295,7 +295,7 @@ plt.show()
 ```
 
 
-![png](output_8_0.png)
+![png]({{ site.url }}/assets/output_8_0.png)
 
 
 Training
