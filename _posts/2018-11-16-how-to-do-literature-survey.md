@@ -2,7 +2,7 @@
 layout: default
 comments: true
 title: How to do literature survey
-category: PhD
+tags: PhD
 ---
 
 # How to do literature survey
