@@ -1,12 +1,11 @@
 ---
 layout: default
-comments: true
+comments: false
 ---
-
 
 # Welcome
 
-Hope you like it! See sidebar for more information.
+Try to get the most out of my Ph.D.
 
 ## Last update
 {{ site.time }}
