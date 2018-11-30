@@ -16,9 +16,7 @@ tags: PhD
 
 ## example
 * original goal:
-
 Increase the number of returning visitors to the site.
 
 * SMART goal:
-
 In 2 months analyze archived click-stream data to determine the website changes that will most efficiently increase revenues by 15% on a month-by-month basis compared to the same month last year.
