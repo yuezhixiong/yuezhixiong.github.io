@@ -7,26 +7,26 @@ tags: PhD
 
 # AI top conferences list
 
-| Field | CCF | CORE | QUALIS | AKA       | Full name                                                                                                   | Deadline   | Inform     | Meeting    |
-|-------|-----|------|--------|-----------|-------------------------------------------------------------------------------------------------------------|------------|------------|------------|
-| AI    | b   | a    | a1     | IUI       | International Conference on Intelligent User Interfaces                                                     | 2018-10-01 | 2018-12-07 | 2019-03-17 |
-| AI    | a   | a*   | a1     | IJCAI     | International Joint Conference on Artificial Intelligence                                                   | 2019-02-25 | 2019-05-09 | 2019-08-10 |
-| AI    | a   | a*   | a1     | AAAI      | AAAI Conference on Artificial Intelligence                                                                  | 2018-08-30 | 2018-11-01 | 2019-01-27 |
-| AI    | b   | a*   | a1     | UAI       | Conference on Uncertainty in Artificial Intelligence                                                        | 2018-03-09 | 2018-05-16 | 2018-08-06 |
-| AI    | b   | a*   | a1     | AAMAS     | International Joint Conference on Autonomous Agents and Multi-agent Systems                                 | 2016-11-11 | 2017-01-24 | 2017-05-08 |
-| CV    | a   | a*   | a1     | CVPR      | IEEE Conference on Computer Vision and Pattern Recognition                                                  | 2018-11-16 | 2019-03-02 | 2019-06-15 |
-| CV    | a   | a*   | a1     | ICCV      | International Conference on Computer Vision                                                                 | 2019-03-01 | 2019-06-01 | 2019-10-27 |
-| CV    | b   | a    | a1     | ECCV      | European Conference on Computer Vision                                                                      | 2018-03-14 | 2018-07-01 | 2018-09-08 |
-| DM    | a   | a*   | a1     | KDD       | ACM SIGKDD Conference on Knowledge Discovery and Data Mining                                                | 2018-02-11 | 2018-05-06 | 2018-08-19 |
-| DM    | b   | a    | a2     | SDM       | SIAM International Conference on Data Mining                                                                | 2018-10-12 |            | 2019-05-02 |
-| DM    | a   | a*   | a1     | ICDE      | International Conference on Data Engineering                                                                | 2018-10-08 | 2018-12-14 | 2018-04-16 |
-| DM    | b   | a*   | b1     | WSDM      | International Conference on Web Search and Data Mining                                                      | 2018-08-08 | 2018-10-24 | 2019-02-11 |
-| DM    | b   | a    | a1     | CIKM      | ACM International Conference on Information and Knowledge Management                                        | 2018-05-15 | 2018-08-06 | 2018-10-22 |
-| DM    | b   | a*   | a1     | ICDM      | International Conference on Data Mining                                                                     | 2018-06-05 | 2018-08-17 | 2018-11-17 |
-| ML    | b   | a    | a2     | ECML-PKDD | The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases | 2018-04-12 |            | 2018-09-10 |
-| ML    | a   | a*   | a1     | NIPS      | Annual Conference on Neural Information Processing Systems                                                  | 2018-05-18 |            | 2018-12-03 |
-| ML    | a   | a*   | a1     | ICML      | International Conference on Machine Learning                                                                | 2019-01-18 |            | 2019-06-10 |
-| NLP   | a   | a*   | a1     | ACL       | Annual Meeting of the Association for Computational Linguistics                                             | 2019-03-04 | 2019-05-13 | 2019-07-28 |
-| NLP   | b   | a    | a1     | EMNLP     | Conference on Empirical Methods in Natural Language Processing                                              | 2017-04-14 | 2017-06-30 | 2017-09-07 |
-| NLP   | c   | a    | a1     | NAACL     | Annual Conference of the North American Chapter of the Association for Computational Linguistics            | 2018-12-03 | 2019-02-22 | 2019-06-02 |
-| NLP   | b   | a    | a1     | COLING    | International Conference on Computational Linguistics                                                       | 2018-03-16 | 2018-05-17 | 2018-08-22 |
+| Field | CCF | CORE | QUALIS | AKA | Full name |
+|-------|-----|------|--------|-----------|-------------------------------------------------------------------------------------------------------------|
+| AI | b | a | a1 | IUI | International Conference on Intelligent User Interfaces |
+| AI | a | a* | a1 | IJCAI | International Joint Conference on Artificial Intelligence |
+| AI | a | a* | a1 | AAAI | AAAI Conference on Artificial Intelligence |
+| AI | b | a* | a1 | UAI | Conference on Uncertainty in Artificial Intelligence |
+| AI | b | a* | a1 | AAMAS | International Joint Conference on Autonomous Agents and Multi-agent Systems |
+| CV | a | a* | a1 | CVPR | IEEE Conference on Computer Vision and Pattern Recognition |
+| CV | a | a* | a1 | ICCV | International Conference on Computer Vision |
+| CV | b | a | a1 | ECCV | European Conference on Computer Vision |
+| DM | a | a* | a1 | KDD | ACM SIGKDD Conference on Knowledge Discovery and Data Mining |
+| DM | b | a | a2 | SDM | SIAM International Conference on Data Mining |
+| DM | a | a* | a1 | ICDE | International Conference on Data Engineering |
+| DM | b | a* | b1 | WSDM | International Conference on Web Search and Data Mining |
+| DM | b | a | a1 | CIKM | ACM International Conference on Information and Knowledge Management |
+| DM | b | a* | a1 | ICDM | International Conference on Data Mining |
+| ML | b | a | a2 | ECML-PKDD | The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases |
+| ML | a | a* | a1 | NIPS | Annual Conference on Neural Information Processing Systems |
+| ML | a | a* | a1 | ICML | International Conference on Machine Learning |
+| NLP | a | a* | a1 | ACL | Annual Meeting of the Association for Computational Linguistics |
+| NLP | b | a | a1 | EMNLP | Conference on Empirical Methods in Natural Language Processing |
+| NLP | c | a | a1 | NAACL | Annual Conference of the North American Chapter of the Association for Computational Linguistics |
+| NLP | b | a | a1 | COLING | International Conference on Computational Linguistics |
