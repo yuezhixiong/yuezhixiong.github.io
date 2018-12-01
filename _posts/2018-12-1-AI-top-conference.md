@@ -7,8 +7,8 @@ tags: PhD
 
 # AI top conferences list
 
-| Field | AKA | Full name |
-|-------|-----------|-------------------------------------------------------------------------------------------------------------|
+|**Field**|**AKA**|**Full name**|
+|-------|-----------|:-------------------------------------------------------------------------------------------------------------|
 | AI | IUI | International Conference on Intelligent User Interfaces |
 | AI | IJCAI | International Joint Conference on Artificial Intelligence |
 | AI | AAAI | AAAI Conference on Artificial Intelligence |
