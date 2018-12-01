@@ -1,3 +1,12 @@
+---
+layout: default
+comments: true
+title: AI top conferences list
+tags: PhD
+---
+
+# AI top conferences list
+
 | Field | CCF | CORE | QUALIS | AKA       | Full name                                                                                                   | Deadline   | Inform     | Meeting    |
 |-------|-----|------|--------|-----------|-------------------------------------------------------------------------------------------------------------|------------|------------|------------|
 | AI    | b   | a    | a1     | IUI       | International Conference on Intelligent User Interfaces                                                     | 2018-10-01 | 2018-12-07 | 2019-03-17 |
