@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: nosidebar
 comments: true
 title: AI top conferences list
 tags: PhD
