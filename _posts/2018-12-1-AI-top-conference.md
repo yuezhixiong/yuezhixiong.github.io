@@ -34,5 +34,6 @@ tags: PhD
 ## note
 * AI: Artificial Intelligence
 * CV: Computer Vision
-* NLP: Nature Language Processing
 * DM: Data Mining
+* ML: Machine Learning
+* NLP: Nature Language Processing
