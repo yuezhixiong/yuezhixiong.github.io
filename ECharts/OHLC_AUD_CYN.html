@@ -37,8 +37,8 @@
                 bar_array[num - i] = rows[i].split(',')[4];
             }
             //EChart大小自适应
-            main.style.width = window.innerWidth-20+'px';
-            main.style.height = window.innerHeight-20+'px';
+            main.style.width = window.innerWidth - 20 + 'px';
+            main.style.height = window.innerHeight - 20 + 'px';
             // 基于准备好的dom，初始化echarts实例            
             var myChart = echarts.init(document.getElementById('main'));
 
@@ -62,12 +62,9 @@
                 }]
             };
 
-
             // 使用刚指定的配置项和数据显示图表。
             myChart.setOption(option);
         }
-
-
     </script>
 </body>
 
