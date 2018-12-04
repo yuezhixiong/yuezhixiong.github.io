@@ -7,7 +7,7 @@ comments: false
 
 Try to get the most out of my Ph.D. at University of Technology Sydney and Southern University of Science and Technology.
 
-Last update time: {{ site.time }}
+Last update time: {{ site.time | date_to_long_string }}
 
 ## Ph.D. toolbox
 <ul>
