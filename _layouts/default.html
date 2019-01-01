@@ -20,18 +20,6 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-            <script>
-                (function () {
-                    var cx = '002836841390184586490:kyjuvezhft4';
-                    var gcse = document.createElement('script');
-                    gcse.type = 'text/javascript';
-                    gcse.async = true;
-                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(gcse, s);
-                })();
-            </script>
-            <gcse:search></gcse:search>
         </div>
     </header>
 
@@ -56,6 +44,18 @@
 
             <aside id="sidebar">
                 <p>
+                    <script>
+                        (function () {
+                            var cx = '002836841390184586490:kyjuvezhft4';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
                     <h1>Zhixiong Yue</h1>
                     <hr />
                     <h2>Contact</h2>
@@ -98,8 +98,5 @@
         ga('send', 'pageview');
     </script>
     {% endif %}
-
-
 </body>
-
 </html>
