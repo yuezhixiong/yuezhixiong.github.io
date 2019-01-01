@@ -4,7 +4,7 @@ comments: false
 ---
 
 # Welcome
-Last updated at {{ site.time | date_to_long_string }}
+Last updated at {{ site.time | date_to_long_string }}.
 
 ## Ph.D. toolbox
 <ul>
