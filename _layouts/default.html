@@ -20,6 +20,18 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <script>
+                (function () {
+                    var cx = '002836841390184586490:kyjuvezhft4';
+                    var gcse = document.createElement('script');
+                    gcse.type = 'text/javascript';
+                    gcse.async = true;
+                    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(gcse, s);
+                })();
+            </script>
+            <gcse:search></gcse:search>
         </div>
     </header>
 
@@ -48,7 +60,8 @@
                     <hr />
                     <h2>Contact</h2>
                     <img src="{{ site.url }}/assets/icon/mail_icon.png">
-                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=6pOfj5CCg5KDhYSNqoyFkoeLg4bEiYWH">email me</a>
+                    <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=6pOfj5CCg5KDhYSNqoyFkoeLg4bEiYWH">email
+                        me</a>
                     <br>
                     <br>
                     <img src="{{ site.url }}/assets/icon/location_icon.png">
