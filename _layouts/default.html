@@ -20,9 +20,20 @@
                 <h1>{{ site.title | default: site.github.repository_name }}</h1>
             </a>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-            <div class="sidebar">
-                    <gcse:searchbox></gcse:searchbox>
-                  </div>
+        </div>
+        <div class="sidebar">
+                <script>
+                        (function () {
+                            var cx = '002836841390184586490:kyjuvezhft4';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                <gcse:searchbox></gcse:searchbox>
         </div>
     </header>
 
