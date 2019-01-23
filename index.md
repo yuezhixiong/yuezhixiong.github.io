@@ -6,7 +6,7 @@ comments: true
 # Welcome
 Last updated at {{ site.time | date_to_long_string }}.
 
-## Ph.D. toolbox
+<!-- ## Ph.D. toolbox
 <ul>
   {% for post in site.tags.PhD %}
     <li>
@@ -22,4 +22,6 @@ Last updated at {{ site.time | date_to_long_string }}.
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->
+
+## search all website I post
