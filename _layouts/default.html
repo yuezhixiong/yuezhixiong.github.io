@@ -27,6 +27,18 @@
         <div class="inner clearfix">
             <section id="main-content">
                 {{ content }}
+                <script>
+                    (function () {
+                        var cx = '002836841390184586490:kyjuvezhft4';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:searchbox-only></gcse:searchbox-only>
                 {% if page.comments %}
                 <div id="disqus_thread"></div>
                 <script>
@@ -44,18 +56,7 @@
 
             <aside id="sidebar">
                 <p>
-                    <script>
-                        (function () {
-                            var cx = '002836841390184586490:kyjuvezhft4';
-                            var gcse = document.createElement('script');
-                            gcse.type = 'text/javascript';
-                            gcse.async = true;
-                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                            var s = document.getElementsByTagName('script')[0];
-                            s.parentNode.insertBefore(gcse, s);
-                        })();
-                    </script>
-                    <gcse:searchbox-only></gcse:searchbox-only>
+                    
                     <h2>Zhixiong Yue</h2>
                     <img src="{{ site.url }}/assets/icon/mail_icon.png">
                     <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=6pOfj5CCg5KDhYSNqoyFkoeLg4bEiYWH">Email
