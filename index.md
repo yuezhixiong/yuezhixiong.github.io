@@ -24,4 +24,11 @@ Last updated at {{ site.time | date_to_long_string }}.
   {% endfor %}
 </ul> -->
 
-## search all websites I post
+## recent post
+
+[handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
+[visualize Decision Trees in Random Forest](https://link.medium.com/lAmV9gapJT)
+[AI top conferences list](https://link.medium.com/iDQjXSbpJT)
+[What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT)
+
+## search other posts
