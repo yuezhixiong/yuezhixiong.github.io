@@ -27,18 +27,7 @@
         <div class="inner clearfix">
             <section id="main-content">
                 {{ content }}
-                <script>
-                    (function() {
-                      var cx = '002836841390184586490:kyjuvezhft4';
-                      var gcse = document.createElement('script');
-                      gcse.type = 'text/javascript';
-                      gcse.async = true;
-                      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                      var s = document.getElementsByTagName('script')[0];
-                      s.parentNode.insertBefore(gcse, s);
-                    })();
-                  </script>
-                  <gcse:search></gcse:search>
+
                 {% if page.comments %}
                 <div id="disqus_thread"></div>
                 <script>
@@ -56,8 +45,19 @@
 
             <aside id="sidebar">
                 <p>
+                    <script>
+                        (function () {
+                            var cx = '002836841390184586490:kyjuvezhft4';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
                     
-                    <h2>Zhixiong Yue</h2>
                     <img src="{{ site.url }}/assets/icon/mail_icon.png">
                     <a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=6pOfj5CCg5KDhYSNqoyFkoeLg4bEiYWH">Email
                         me</a>
@@ -68,7 +68,7 @@
                     <br>
                     <hr />
                     <h2>Other Pages</h2>
-                    
+
                     <img src="{{ site.url }}/assets/icon/medium.png"><a href="https://medium.com/@yuezhixiong915">Medium</a><br>
                     <br>
                     <img src="{{ site.url }}/assets/icon/zhihu.png"><a href="https://zhihu.com/people/yuezhixiong/posts">知乎</a><br>
