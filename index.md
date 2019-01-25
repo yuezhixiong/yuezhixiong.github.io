@@ -3,7 +3,7 @@ layout: default
 comments: true
 ---
 
-![]({{ site.url }}/assets/images/Sydney.jpg "Sydney")
+![]({{ site.url }}/assets/images/banner.jpg "Sydney")
 
 ## Welcome
 Welcome to the blog of Zhixiong Yue. The lastest update of this blog is at {{ site.time | date_to_long_string }}.
