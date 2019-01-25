@@ -26,6 +26,7 @@ Last updated at {{ site.time | date_to_long_string }}.
 
 ## recent posts
 
+* [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
 * [handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
 * [visualize and analysis Decision Trees in Random Forest](https://link.medium.com/lAmV9gapJT)
 * [AI top conferences list](https://link.medium.com/iDQjXSbpJT)
