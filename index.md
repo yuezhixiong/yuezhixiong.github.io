@@ -6,7 +6,7 @@ comments: true
 # Welcome
 Last updated at {{ site.time | date_to_long_string }}.
 
-![]({{ site.url }}/assets/images/banner "Sydney")
+![]({{ site.url }}/assets/images/banner.jpg "Sydney")
 
 <!-- ## Ph.D. toolbox
 <ul>
