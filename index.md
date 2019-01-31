@@ -5,7 +5,7 @@ comments: true
 
 ![](./assets/images/banner.jpg "Sydney")
 
-## Welcome 
+# Welcome 
 Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is at {{ site.time | date_to_long_string }}.
 
 <!-- ## Ph.D. toolbox
@@ -26,7 +26,7 @@ Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is a
   {% endfor %}
 </ul> -->
 
-## recent posts
+## Recent posts
 
 * [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
 * [handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
@@ -35,8 +35,8 @@ Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is a
 * [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT)
 
 
-## recent publications
+## Recent publications
 
 * **Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. [An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions](./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.
 
-* Yinghao, J. and **Zhixiong, Y.**, 2017, September. [Mobile Advertising Predicted Conversion Rate Model a Recommendation System with Machine Learing Approach](./Papers/Mobile_Advertising_Predicted_Conversion_Rate_Model_a_Recommendation_System_with_Machine_Learing_Approach.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 117-119). ACM.]
+* Yinghao, J. and **Zhixiong, Y.**, 2017, September. [Mobile Advertising Predicted Conversion Rate Model a Recommendation System with Machine Learing Approach](./Papers/Mobile_Advertising_Predicted_Conversion_Rate_Model_a_Recommendation_System_with_Machine_Learing_Approach.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 117-119). ACM.

@@ -22,3 +22,8 @@
     </li>
   {% endfor %}
 </ul>
+
+## plugin
+in _config.yml
+plugins:
+  - jemoji
