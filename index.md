@@ -37,5 +37,8 @@ Welcome to the blog of Zhixiong Yue. The lastest update of this blog is at {{ si
 
 ## recent publications
 
-* [Yinghao, J. and **Zhixiong, Y.**, 2017, September. Mobile Advertising Predicted Conversion Rate Model a Recommendation System with Machine Learing Approach. In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 117-119). ACM.](./Papers/Mobile_Advertising_Predicted_Conversion_Rate_Model_a_Recommendation_System_with_Machine_Learing_Approach.pdf)
-* [**Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions. In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.](./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf)
+* **Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. [An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions][p2]. In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.
+[p2]:(./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf)
+
+* Yinghao, J. and **Zhixiong, Y.**, 2017, September. [Mobile Advertising Predicted Conversion Rate Model a Recommendation System with Machine Learing Approach][p1]. In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 117-119). ACM.]
+[p1]:(./Papers/Mobile_Advertising_Predicted_Conversion_Rate_Model_a_Recommendation_System_with_Machine_Learing_Approach.pdf)
