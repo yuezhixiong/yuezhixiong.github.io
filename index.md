@@ -5,8 +5,8 @@ comments: true
 
 ![](./assets/images/banner.jpg "Sydney")
 
-## Welcome :tada: 
-Welcome to the blog of Zhixiong Yue. The lastest update of this blog is at {{ site.time | date_to_long_string }}.
+## Welcome 
+Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is at {{ site.time | date_to_long_string }}.
 
 <!-- ## Ph.D. toolbox
 <ul>

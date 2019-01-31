@@ -4,3 +4,5 @@ show_downloads: false
 google_analytics: UA-99330599-1
 theme: jekyll-theme-architect
 url: https://yuezhixiong.github.io
+plugins:
+  - jemoji
