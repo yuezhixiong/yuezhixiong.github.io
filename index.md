@@ -34,6 +34,10 @@ Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is a
 * [AI top conferences list](https://link.medium.com/iDQjXSbpJT)
 * [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT)
 
+## Visualization
+
+* [exchange rate from AUD to CYN](./ECharts/AUD.html)
+* [gold price of USD per ounce](./ECharts/gold.html)
 
 ## Recent publications
 
