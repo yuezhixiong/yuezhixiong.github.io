@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ECharts</title>
+    <title>Home2Work</title>
     <!-- 引入 echarts.js -->
     <script src="echarts.js"></script>
 </head>
@@ -16,134 +16,222 @@
         main.style.width = window.innerWidth - 20 + 'px';
         main.style.height = window.innerHeight - 20 + 'px';
         var myChart = echarts.init(document.getElementById('main'));
-        
-        var symbolSize = 20;
-        var data = [[-60, 0], [-60, -10], [40, 40], [30, 40]];
 
         // 指定图表的配置项和数据
         option = {
-            title: {
-                text: 'Try Dragging these Points'
-            },
-            tooltip: {
-                triggerOn: 'none',
-                formatter: function (params) {
-                    return 'X: ' + params.data[0].toFixed(2) + '<br>Y: ' + params.data[1].toFixed(2);
-                }
-            },
-            grid: {
-            },
-            xAxis: {
-                min: 'dataMin',
-                max: 'dataMax',
-                type: 'value',
-                axisLine: { onZero: false }
-            },
-            yAxis: {
-                min: 'dataMin',
-                max: 'dataMax',
-                type: 'value',
-                axisLine: { onZero: false }
-            },
-            dataZoom: [
-                {
-                    type: 'slider',
-                    xAxisIndex: 0,
-                    filterMode: 'empty'
-                },
-                {
-                    type: 'slider',
-                    yAxisIndex: 0,
-                    filterMode: 'empty'
-                },
-                {
-                    type: 'inside',
-                    xAxisIndex: 0,
-                    filterMode: 'empty'
-                },
-                {
-                    type: 'inside',
-                    yAxisIndex: 0,
-                    filterMode: 'empty'
-                }
-            ],
+            tooltip: {},
+            animationDurationUpdate: 1500,
+            animationEasingUpdate: 'quinticInOut',
             series: [
                 {
-                    id: 'a',
-                    type: 'line',
-                    smooth: true,
-                    symbolSize: symbolSize,
-                    data: data
+                    type: 'graph',
+                    layout: 'none',
+                    symbolSize: 50,
+                    roam: true,
+                    label: {
+                        normal: {
+                            show: true
+                        }
+                    },
+                    edgeSymbol: ['circle', 'arrow'],
+                    edgeSymbolSize: [4, 10],
+                    itemStyle: {
+                    normal: {
+                        borderColor: '#fff',
+                        borderWidth: 1,
+                        shadowBlur: 10,
+                        shadowColor: 'rgba(0, 0, 0, 0.3)'
+                    }
+                },
+                    data: [{
+                        name: 'Home',
+                        x: 0,
+                        y: 0
+                    }, {
+                        name: 'New Canterbury Rd at Lewisham St',
+                        x: -200,
+                        y: -150
+                    }, {
+                        name: 'Petersham Station',
+                        x: 400,
+                        y: -500
+                    }, {
+                        name: 'Norton St before Parramatta Rd',
+                        x: 700,
+                        y: -1100
+                    }, {
+                        name: 'Broadway Shopping Centre',
+                        x: 1500,
+                        y: -1000
+                    }, {
+                        name: 'Marrickville Rd after New Canterbury Rd',
+                        x: 0,
+                        y: 200
+                    }, {
+                        name: 'UTS',
+                        x: 2200,
+                        y: -1000
+                    }, {
+                        name: 'Sydenham Station',
+                        x: 550,
+                        y: 600
+                    }, {
+                        name: 'Central Station',
+                        x: 2500,
+                        y: -1200
+                    }, {
+                        name: 'Work',
+                        x: 2000,
+                        y: -1000
+                    }],
+                    links: [{
+                        value: '426',
+                        source: 'Marrickville Rd after New Canterbury Rd',
+                        target: 'UTS',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }, {
+                        value: '10m',
+                        source: 'Home',
+                        target: 'Marrickville Rd after New Canterbury Rd',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dotted'
+                        }
+                    }, {
+                        value: '180m',
+                        source: 'UTS',
+                        target: 'Work',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dotted'
+                        }
+                    }, {
+                        value: '418 / 425',
+                        source: 'Marrickville Rd after New Canterbury Rd',
+                        target: 'Sydenham Station',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }, {
+                        value: 'T3 / T4',
+                        source: 'Sydenham Station',
+                        target: 'Central Station',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dashed'
+                        }
+                    }, {
+                        value: '650m',
+                        source: 'Central Station',
+                        target: 'UTS',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dotted'
+                        }
+                    }, {
+                        value: '50m',
+                        source: 'Home',
+                        target: 'New Canterbury Rd at Lewisham St',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dotted'
+                        }
+                    }, {
+                        value: '445',
+                        source: 'New Canterbury Rd at Lewisham St',
+                        target: 'Petersham Station',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }, {
+                        value: '445',
+                        source: 'Petersham Station',
+                        target: 'Norton St before Parramatta Rd',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }, {
+                        value: '436 / 438 / 439 / 440 / M10',
+                        source: 'Norton St before Parramatta Rd',
+                        target: 'UTS',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            curveness: 0.2
+                        }
+                    
+                    }, {
+                        value: '412',
+                        source: 'Petersham Station',
+                        target: 'UTS',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }, {
+                        value: 'T2',
+                        source: 'Petersham Station',
+                        target: 'Central Station',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dashed'
+                        }
+                    }, {
+                        value: '350m',
+                        source: 'Broadway Shopping Centre',
+                        target: 'Work',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        },
+                        lineStyle: {
+                            type: 'dotted'
+                        }
+                    }, {
+                        value: 'L28',
+                        source: 'New Canterbury Rd at Lewisham St',
+                        target: 'Broadway Shopping Centre',
+                        label: {
+                            show: true,
+                            formatter: '{c}'
+                        }
+                    }],
+                    lineStyle: {
+                        normal: {
+                            opacity: 0.9,
+                            width: 2,
+                            curveness: 0
+                        }
+                    }
                 }
             ]
         };
-
-        // if (!app.inNode) {
-        if (true) {  
-            setTimeout(function () {
-                // Add shadow circles (which is not visible) to enable drag.
-                myChart.setOption({
-                    graphic: echarts.util.map(data, function (item, dataIndex) {
-                        return {
-                            type: 'circle',
-                            position: myChart.convertToPixel('grid', item),
-                            shape: {
-                                cx: 0,
-                                cy: 0,
-                                r: symbolSize / 2
-                            },
-                            invisible: true,
-                            draggable: true,
-                            ondrag: echarts.util.curry(onPointDragging, dataIndex),
-                            onmousemove: echarts.util.curry(showTooltip, dataIndex),
-                            onmouseout: echarts.util.curry(hideTooltip, dataIndex),
-                            z: 100
-                        };
-                    })
-                });
-            }, 0);
-
-            window.addEventListener('resize', updatePosition);
-        }
-
-        myChart.on('dataZoom', updatePosition);
-
-        function updatePosition() {
-            myChart.setOption({
-                graphic: echarts.util.map(data, function (item, dataIndex) {
-                    return {
-                        position: myChart.convertToPixel('grid', item)
-                    };
-                })
-            });
-        }
-
-        function showTooltip(dataIndex) {
-            myChart.dispatchAction({
-                type: 'showTip',
-                seriesIndex: 0,
-                dataIndex: dataIndex
-            });
-        }
-
-        function hideTooltip(dataIndex) {
-            myChart.dispatchAction({
-                type: 'hideTip'
-            });
-        }
-
-        function onPointDragging(dataIndex, dx, dy) {
-            data[dataIndex] = myChart.convertFromPixel('grid', this.position);
-
-            // Update data
-            myChart.setOption({
-                series: [{
-                    id: 'a',
-                    data: data
-                }]
-            });
-        }
-
 
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
