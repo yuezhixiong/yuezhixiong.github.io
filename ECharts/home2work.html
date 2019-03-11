@@ -56,6 +56,20 @@
                 break;
             }
         }
+
+        var tb_L28 = ['07:00','07:28','07:40','07:51','08:02','08:11','08:22','08:34'];
+
+        for (var i = 0; i < tb_L28.length; i++) {
+            var tb = tb_L28[i].split(':');
+            var t = new Date(now.getFullYear(), now.getMonth(), now.getDate(), tb[0], tb[1], 0);
+
+            if (t >= now) {
+                var min_L28 = Math.ceil((t.getTime() - now.getTime()) / 1000 / 60);
+                tb_L28.splice(0, i);
+                break;
+            }
+        }
+
         // 基于准备好的dom，初始化echarts实例
         main.style.width = window.innerWidth - 20 + 'px';
         main.style.height = window.innerHeight - 20 + 'px';
@@ -94,7 +108,7 @@
                     show: true,
                     formatter: function(params) {
                         if(params.name == 'Bus') {
-                            return '428: ' + min_428 + ' mins' + '<p>' + '426: ' + min_426 + ' mins'
+                            return '428: '+min_428+' mins'+'<p>'+'426: '+min_426+' mins'+'<p>'+'L28: '+min_L28+' mins'
                         }
                     }
                 }
@@ -151,6 +165,13 @@
                                 var res = 'Bus 428 in '+min_428+' mins <p>'
                                 for (var i = 0; i < tb_428.length; i++) {
                                     res += tb_428[i] + ' ';
+                                    if ((i + 1) % 7 == 0) {
+                                        res += '<p>'
+                                    }
+                                }
+                                res += '<p>Bus L28 in '+min_L28+' mins <p>'
+                                for (var i = 0; i < tb_L28.length; i++) {
+                                    res += tb_L28[i] + ' ';
                                     if ((i + 1) % 7 == 0) {
                                         res += '<p>'
                                     }
