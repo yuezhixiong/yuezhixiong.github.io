@@ -92,7 +92,11 @@
 
                 tooltip: {
                     show: true,
-                    formatter: '428: ' + min_428 + ' mins' + '<p>' + '426: ' + min_426 + ' mins',
+                    formatter: function(params) {
+                        if(params.name == 'Bus') {
+                            return '428: ' + min_428 + ' mins' + '<p>' + '426: ' + min_426 + ' mins'
+                        }
+                    }
                 }
             }],
             animationDurationUpdate: 1500,
@@ -108,7 +112,7 @@
                         show: true
                     },
                     edgeSymbol: ['circle', 'arrow'],
-                    edgeSymbolSize: 4,
+                    edgeSymbolSize: 10,
                     itemStyle: {
                         borderColor: '#fff',
                         borderWidth: 1,
@@ -117,8 +121,8 @@
                     },
                     lineStyle: {
                         opacity: 0.5,
-                        width: 2,
-                        curveness: 0.1
+                        width: 5,
+                        curveness: 0
                     },
                     symbol: 'rect',
                     symbolSize: 50,
@@ -166,8 +170,8 @@
                         category: 1
                     }, {
                         name: 'Marrickville Rd after New Canterbury Rd',
-                        x: 0,
-                        y: 200,
+                        x: 100,
+                        y: 150,
                         category: 1,
                         tooltip: {
                             formatter: function () {
