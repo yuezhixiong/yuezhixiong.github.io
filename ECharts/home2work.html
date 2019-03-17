@@ -68,6 +68,9 @@
                 tb_L28.splice(0, i);
                 break;
             }
+            if ( i== tb_L28.length-1){
+                tb_L28 = ['No L28 today']
+            }
         }
 
         // 基于准备好的dom，初始化echarts实例
@@ -165,14 +168,14 @@
                                 var res = 'Bus 428 in '+min_428+' mins <p>'
                                 for (var i = 0; i < tb_428.length; i++) {
                                     res += tb_428[i] + ' ';
-                                    if ((i + 1) % 7 == 0) {
+                                    if ((i + 1) % 9 == 0) {
                                         res += '<p>'
                                     }
                                 }
                                 res += '<p>Bus L28 in '+min_L28+' mins <p>'
                                 for (var i = 0; i < tb_L28.length; i++) {
                                     res += tb_L28[i] + ' ';
-                                    if ((i + 1) % 7 == 0) {
+                                    if ((i + 1) % 9 == 0) {
                                         res += '<p>'
                                     }
                                 }
