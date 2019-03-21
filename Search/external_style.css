@@ -16,12 +16,12 @@ input {
     text-decoration: none;
     cursor: pointer;
     border: none;
-    width: 13%;
+    width: 12%;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(12, fr1);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
 }

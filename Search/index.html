@@ -12,12 +12,14 @@
     <form>
         <input id="text" name="q" type="text" autofocus=true spellcheck="true" />
         <input type="submit" formaction="http://www.google.com/search" value="Google" id="submit" />
+        <input type="button" value="Translate" id="submit" onclick="GoogleTranslate();" />
         <input type="submit" formaction="http://www.youtube.com/search" value="YouTube" id="submit" />
         <input type="submit" formaction="https://www.bing.com/images/search" value="BingImage" id="submit" />
         <input type="submit" formaction="http://www.zhihu.com/search" value="知乎" id="submit" />
         <input type="submit" formaction="https://www.douban.com/search" value="豆瓣" id="submit" />
         <input type="button" value="百度" id="submit" onclick="baidu();" />
         <input type="button" value="哔哩哔哩" id="submit" onclick="bilibili();" />
+
     </form>
 
     <script type="text/javascript">
@@ -30,6 +32,12 @@
         function bilibili() {
             text = document.getElementById('text').value;
             url = 'https://search.bilibili.com/all?keyword=' + text;
+            window.open(url, '_blank');
+        }
+
+        function GoogleTranslate() {
+            text = document.getElementById('text').value;
+            url = 'https://translate.google.com/?hl=zh-CN&tab=wT#view=home&op=translate&sl=zh-CN&tl=en&text=' + text;
             window.open(url, '_blank');
         }
     </script>
