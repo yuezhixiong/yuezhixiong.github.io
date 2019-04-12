@@ -1,22 +1,21 @@
 input {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 10px 0;
     box-sizing: border-box;
 }
 
 #submit {
     background-color: #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 6px;
+    /* -webkit-border-radius: 5px; */
+    border-radius: 10px;
     color: #fff;
     font-family: 'Oswald';
     font-size: 20px;
-    text-decoration: none;
+    /* text-decoration: none; */
     cursor: pointer;
     border: none;
-    width: 12%;
+    width: 10%;
 }
 
 .wrapper {
