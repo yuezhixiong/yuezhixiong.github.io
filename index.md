@@ -28,6 +28,7 @@ Welcome to the blog of Zhixiong Yue. :tada: The lastest update of this blog is a
 
 ## Recent posts
 
+* [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
 * [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
 * [handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
 * [visualize and analysis Decision Trees in Random Forest](https://link.medium.com/lAmV9gapJT)
