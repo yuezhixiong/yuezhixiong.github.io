@@ -3,10 +3,10 @@ layout: default
 comments: true
 ---
 
-![](./assets/images/banner.jpg "Sydney")
+<!-- ![](./assets/images/banner.jpg "Sydney") -->
 
-# :tada: Welcome 
-The lastest update of this blog is at {{ site.time | date_to_long_string }}.
+## :tada: Welcome 
+The last update of this blog is on {{ site.time | date_to_long_string }}.
 
 ## :mortar_board: Biographies
 Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern University of Science and Technology (SUSTech). Now he is a first-year Ph.D. student in School of Computer Science, University of Technology Sydney (UTS) and SUSTech joint program. His main research interest centers on the aggregation of data visualization and machine Learning for enhancing the capability of data analysis. His current research is on health record analysis for stroke disease. He is also concerned about financial time series data analysis with machine learning.
