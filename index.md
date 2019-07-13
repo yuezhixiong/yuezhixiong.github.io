@@ -38,10 +38,10 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [AI top conferences list](https://link.medium.com/iDQjXSbpJT)
 * [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT)
 
-## :chart_with_upwards_trend: Visualization Charts
+<!-- ## :chart_with_upwards_trend: Visualization Charts
 
 * [exchange rate from AUD to CYN](./ECharts/AUD.html)
-* [gold price of USD per ounce](./ECharts/gold.html)
+* [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## :books: Recent publications
 
