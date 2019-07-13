@@ -1,6 +1,7 @@
 body {
     background-image: url("https://source.unsplash.com/user/impatrickt/1920x1080");
     background-color: #fff;
+    background-size: cover;
 }
 
 input {
