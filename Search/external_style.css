@@ -1,5 +1,7 @@
 body {
-    background-image: url("https://source.unsplash.com/user/impatrickt/1920x1080");
+    /* http://api.dujin.org/bing/1920.php */
+    /* https://source.unsplash.com/user/impatrickt/1920x1080 */
+    background-image: url("http://api.dujin.org/bing/1920.php");
     background-color: #fff;
     background-size: cover;
 }
@@ -26,7 +28,7 @@ input {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 40px;
     grid-auto-rows: minmax(64px, auto);
     padding: 5%;
@@ -64,5 +66,10 @@ img {
 
 .c6_r1 {
     grid-column: 6;
+    grid-row: 1;
+}
+
+.c7_r1 {
+    grid-column: 7;
     grid-row: 1;
 }
