@@ -31,6 +31,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 
 ## :newspaper: Recent posts
 
+* [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
 * [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
 * [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
 * [handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
@@ -44,6 +45,8 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## :books: Recent publications
+
+* Huang, M.L., **Yue, Z.**, Nguyen, Q.V., Liang, J. and Luo, Z., 2019, July. [Stroke Data Analysis through a HVN Visual Mining Platform](./Papers/Stroke_Data_Analysis_through_a_HVN_Visual_Mining_Platform.pdf). In 2019 23rd International Conference in Information Visualization–Part II (pp. 1-6). IEEE.
 
 * **Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. [An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions](./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.
 
