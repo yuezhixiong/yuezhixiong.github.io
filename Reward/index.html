@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/atom.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/open.css">
-  <title>Zepto.js插件实现宝箱开启动画抽奖</title>
+  <title>开宝箱赢钻石</title>
 </head>
 
 <body ontouchstart="" class="open-body">
@@ -60,7 +60,7 @@
   <script type="text/javascript">
 
     $(".chest-close").click(function () {
-      var num = Math.round(Math.random() * 10000);
+      var num = Math.round(Math.random() * 1000);
       $('zuan_num').replaceWith('<zuan_num>x ' + num + '</zuan_num>');
 
       $(this).addClass("shake");
