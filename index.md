@@ -33,6 +33,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 
 ## :newspaper: Recent posts
 
+* [ANNs, DNNs and SNNs](https://medium.com/@yuezhixiong915/anns-dnns-and-snns-6f6fdbd4bb59?sk=add076823af0e370ada572d74e16ca94)
 * [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
 * [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
 * [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
