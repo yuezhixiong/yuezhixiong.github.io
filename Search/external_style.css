@@ -14,7 +14,7 @@ input {
 }
 
 #submit {
-    background-color: #ccc;
+    background-color: transparent;
     /* -webkit-border-radius: 5px; */
     border-radius: 10px;
     color: #fff;
