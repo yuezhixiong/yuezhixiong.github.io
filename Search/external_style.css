@@ -1,7 +1,8 @@
 body {
     /* http://api.dujin.org/bing/1920.php */
     /* https://source.unsplash.com/user/impatrickt/1920x1080 */
-    background-image: url("http://api.dujin.org/bing/1920.php");
+/*     https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture */
+    background-image: url("https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture");
     background-color: #fff;
     background-size: cover;
 }
