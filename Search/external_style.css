@@ -3,7 +3,7 @@ body {
     /* https://source.unsplash.com/user/impatrickt/1920x1080 */
     /*     https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture */
     background-image: url('https://yuezhixiong.github.io/assets/images/city_skyline.jpg');
-    background-color: #fff;
+    background-color: #99ccff;
     background-size: cover;
     /* background-repeat: no-repeat; */
 }
