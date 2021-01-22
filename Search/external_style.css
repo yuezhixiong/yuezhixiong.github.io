@@ -2,7 +2,7 @@ body {
     /* http://api.dujin.org/bing/1920.php */
     /* https://source.unsplash.com/user/impatrickt/1920x1080 */
     /*     https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture */
-    background-image: url("https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture");
+    background-image: url('https://yuezhixiong.github.io/assets/images/city_skyline.jpg');
     background-color: #fff;
     background-size: cover;
     /* background-repeat: no-repeat; */
