@@ -32,7 +32,9 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 </ul> -->
 
 ## :newspaper: Recent posts
-
+* [Smooth Adversarial Training](https://zhuanlan.zhihu.com/p/293140901)
+* [Implicit Euler Skip Connections (IE-Skips)隐式欧拉跳跃连接](https://zhuanlan.zhihu.com/p/263397147)
+* [Defensive Quantization：量化让网络鲁棒性降低？](https://zhuanlan.zhihu.com/p/148455223)
 * [ANNs, DNNs and SNNs](https://medium.com/@yuezhixiong915/anns-dnns-and-snns-6f6fdbd4bb59?sk=add076823af0e370ada572d74e16ca94)
 * [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
 * [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
@@ -48,7 +50,8 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## :books: Recent publications
-
+* **Yue, Z.**, Lin, B., Huang, X. and Zhang, Y., 2020. Effective, Efficient and Robust Neural Architecture Search. arXiv preprint arXiv:2011.09820. 
+* Ye, F., Lin, B., **Yue, Z.**, Guo, P., Xiao, Q. and Zhang, Y., 2021. Multi-Objective Meta Learning. arXiv preprint arXiv:2102.07121. 
 * Huang, M.L., **Yue, Z.**, Nguyen, Q.V., Liang, J. and Luo, Z., 2019, July. [Stroke Data Analysis through a HVN Visual Mining Platform](./Papers/Stroke_Data_Analysis_through_a_HVN_Visual_Mining_Platform.pdf). In 2019 23rd International Conference in Information Visualization–Part II (pp. 1-6). IEEE.
 
 * **Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. [An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions](./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.
