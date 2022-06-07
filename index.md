@@ -32,17 +32,18 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 </ul> -->
 
 ## :newspaper: Recent posts
-* [Smooth Adversarial Training](https://zhuanlan.zhihu.com/p/293140901)
+* [paper工具箱](https://www.zhihu.com/column/paper-toolbox)
+<!-- * [Smooth Adversarial Training](https://zhuanlan.zhihu.com/p/293140901)
 * [Implicit Euler Skip Connections (IE-Skips)隐式欧拉跳跃连接](https://zhuanlan.zhihu.com/p/263397147)
 * [Defensive Quantization：量化让网络鲁棒性降低？](https://zhuanlan.zhihu.com/p/148455223)
 * [ANNs, DNNs and SNNs](https://medium.com/@yuezhixiong915/anns-dnns-and-snns-6f6fdbd4bb59?sk=add076823af0e370ada572d74e16ca94)
-* [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
-* [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
 * [understand Gradient Boosting Classifier via source code and visualization](https://link.medium.com/kELfzPVLKT)
 * [handle the Data Imbalance and visualize Feature Importance on healthcare dataset](https://link.medium.com/8j3JvJRnJT)
 * [visualize and analysis Decision Trees in Random Forest](https://link.medium.com/lAmV9gapJT)
 * [AI top conferences list](https://link.medium.com/iDQjXSbpJT)
-* [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT)
+* [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT) -->
+* * [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
+* [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
 
 <!-- ## :chart_with_upwards_trend: Visualization Charts
 
