@@ -1,9 +1,10 @@
 body {
-    /* http://api.dujin.org/bing/1920.php */
+/*     http://api.dujin.org/bing/1920.php */
     /* https://source.unsplash.com/user/impatrickt/1920x1080 */
     /*     https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture */
     /*     https://yuezhixiong.github.io/assets/images/city_skyline.jpg */
-    background-image: url('https://yuezhixiong.github.io/assets/images/spring_festival.jpg');
+/*     https://yuezhixiong.github.io/assets/images/spring_festival.jpg */
+    background-image: url('http://api.dujin.org/bing/1920.php');
     background-color: #99ccff;
     background-size: cover;
     /* background-repeat: no-repeat; */
