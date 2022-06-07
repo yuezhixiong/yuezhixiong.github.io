@@ -33,6 +33,9 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 
 ## :newspaper: Recent posts
 * [Paper Toolbox in Zhihu](https://www.zhihu.com/column/paper-toolbox)
+* [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
+* [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
+
 <!-- * [Smooth Adversarial Training](https://zhuanlan.zhihu.com/p/293140901)
 * [Implicit Euler Skip Connections (IE-Skips)隐式欧拉跳跃连接](https://zhuanlan.zhihu.com/p/263397147)
 * [Defensive Quantization：量化让网络鲁棒性降低？](https://zhuanlan.zhihu.com/p/148455223)
@@ -42,9 +45,6 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [visualize and analysis Decision Trees in Random Forest](https://link.medium.com/lAmV9gapJT)
 * [AI top conferences list](https://link.medium.com/iDQjXSbpJT)
 * [What is and how to do a literature survey](https://link.medium.com/iuar0DdpJT) -->
-* [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
-* [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
-
 <!-- ## :chart_with_upwards_trend: Visualization Charts
 
 * [exchange rate from AUD to CYN](./ECharts/AUD.html)
