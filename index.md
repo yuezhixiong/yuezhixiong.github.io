@@ -32,7 +32,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 </ul> -->
 
 ## :newspaper: Recent posts
-* [paper工具箱](https://www.zhihu.com/column/paper-toolbox)
+* [Paper Toolbox in Zhihu](https://www.zhihu.com/column/paper-toolbox)
 <!-- * [Smooth Adversarial Training](https://zhuanlan.zhihu.com/p/293140901)
 * [Implicit Euler Skip Connections (IE-Skips)隐式欧拉跳跃连接](https://zhuanlan.zhihu.com/p/263397147)
 * [Defensive Quantization：量化让网络鲁棒性降低？](https://zhuanlan.zhihu.com/p/148455223)
