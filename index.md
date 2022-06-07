@@ -50,9 +50,13 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## :books: Recent publications
-* **Yue, Z.**, Lin, B., Huang, X. and Zhang, Y., 2020. Effective, Efficient and Robust Neural Architecture Search. arXiv preprint arXiv:2011.09820. 
-* Ye, F., Lin, B., **Yue, Z.**, Guo, P., Xiao, Q. and Zhang, Y., 2021. Multi-Objective Meta Learning. arXiv preprint arXiv:2102.07121. 
-* Huang, M.L., **Yue, Z.**, Nguyen, Q.V., Liang, J. and Luo, Z., 2019, July. [Stroke Data Analysis through a HVN Visual Mining Platform](./Papers/Stroke_Data_Analysis_through_a_HVN_Visual_Mining_Platform.pdf). In 2019 23rd International Conference in Information Visualization–Part II (pp. 1-6). IEEE.
+**Zhixiong Yue**, Baijiong Lin, Yu Zhang, Jie Liang. Effective, Efficient and Robust Neural Architecture Search. \textit{Proceedings of the 2022 International Joint Conference on Neural Networks} (IJCNN 2022), online, 2022.  [CORA Rank A]
+
+**Zhixiong Yue**, Pengxin Guo, Yu Zhang, Jie Liang. Learning Feature Alignment Architecture for Domain Adaptation. \textit{Proceedings of the 2022 International Joint Conference on Neural Networks} (IJCNN 2022), online, 2022.  [CORA Rank A]
+
+Mao Lin Huang*, **Zhixiong Yue***, Quang Vinh Nguyen, Jie Liang, Zongwei Luo. Stroke Data Analysis through a HVN Visual Mining Platform. \textit{Proceedings of the 2019 23rd International Conference in Information Visualization} (IV 2019), Adelaide, Australia, July 16-19, 2019. (*Equal Contribution) [CORA Rank B]
+
+Feiyang Ye*, Baijiong Lin*, **Zhixiong Yue**, Pengxin Guo, Qiao Xiao, Yu Zhang. Multi-Objective Meta Learning. \textit{Proceedings of the 2021 Advances in Neural Information Processing Systems} (NeurIPS 2021), online, 2021. (*Equal Contribution)
 
 * **Yue, Z.**, Jiang, Y., Pan, D. and Luo, Z., 2017, September. [An End-to-end Tag-based Recommendation System for Verbal Reasoning Questions](./Papers/An_End-to-end_Tag-based_Recommendation_System_for_Verbal_Reasoning_Questions.pdf). In Proceedings of the 10th EAI International Conference on Simulation Tools and Techniques (pp. 131-135). ACM.
 
