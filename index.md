@@ -51,11 +51,13 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## :books: Recent publications
-* **Zhixiong Yue**, Baijiong Lin, Yu Zhang, Jie Liang. [Effective, Efficient and Robust Neural Architecture Search](./Papers/E2RNAS.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022.  [CORA Rank A]
+* **Zhixiong Yue**, Yu Zhang, Jie Liang. [Learning Conflict-Noticed Architecture for Multi-Task Learning](./Papers/CoNAL.pdf). Proceedings of the 2023 National Conference of the American Association for Artificial Intelligence (AAAI 2023), Washington, USA, February 7-14, 2023. [CORA Rank A\*]
+
+* **Zhixiong Yue**, Baijiong Lin, Yu Zhang, Jie Liang. [Effective, Efficient and Robust Neural Architecture Search](./Papers/E2RNAS.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022. [CORA Rank A]
 
 * **Zhixiong Yue**, Pengxin Guo, Yu Zhang, Jie Liang. [Learning Feature Alignment Architecture for Domain Adaptation](./Papers/AASPC.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022. [CORA Rank A]
 
-* Feiyang Ye\*, Baijiong Lin\*, **Zhixiong Yue**, Pengxin Guo, Qiao Xiao, Yu Zhang. [Multi-Objective Meta Learning](./Papers/MOML.pdf). Proceedings of the 2021 Advances in Neural Information Processing Systems (NeurIPS 2021), online, 2021. (*Equal Contribution) [CORA Rank A\*]
+* Feiyang Ye\*, Baijiong Lin\*, **Zhixiong Yue**, Pengxin Guo, Qiao Xiao, Yu Zhang. [Multi-Objective Meta Learning](./Papers/MOML.pdf). Proceedings of the 2021 Advances in Neural Information Processing Systems (NeurIPS 2021), online, 2021. (\*Equal Contribution) [CORA Rank A\*]
 
 * Mao Lin Huang\*, **Zhixiong Yue\***, Quang Vinh Nguyen, Jie Liang, Zongwei Luo. [Stroke Data Analysis through a HVN Visual Mining Platform](./Papers/Stroke_Data_Analysis_through_a_HVN_Visual_Mining_Platform.pdf). Proceedings of the 2019 23rd International Conference in Information Visualization (IV 2019), Adelaide, Australia, July 16-19, 2019. (\*Equal Contribution) [CORA Rank B]
 
