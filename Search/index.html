@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Search</title>
-    <link rel="stylesheet" href="external_style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="bookmark icon" href="/oli_favicon.ico">
 </head>
 
@@ -12,8 +12,8 @@
     <!-- https://www.bing.com/images/search?q= -->
     <form>
         <input id="text" name="q" type="text" autofocus=true spellcheck="true" />
-<!--         <input type="submit" formaction="http://www.google.com/search" value="Google" id="submit" /> -->
-        <input type="submit" formaction="https://cn.bing.com/dict/search" value="必应词典" id="submit" />
+        <!--         <input type="submit" formaction="http://www.google.com/search" value="Google" id="submit" /> -->
+        <!-- <input type="submit" formaction="https://cn.bing.com/dict/search" value="必应词典" id="submit" /> -->
         <input type="button" value="百度" id="submit" onclick="baidu();" />
         <input type="submit" formaction="https://www.zhihu.com/search" value="知乎" id="submit" />
         <input type="submit" formaction="https://www.bing.com/images/search" value="必应图片" id="submit" />
@@ -43,6 +43,50 @@
             window.open(url, '_blank');
         }
     </script>
+
+    <div class="widgets">
+        <div class="time"><span class="wtb-ew-v1">
+                <script src="https://www.worldtimebuddy.com/clock_widget.js?h=2147714&bc=8BA1BB&cn=&wt=c2"></script>
+                <i><a href="https://www.worldtimebuddy.com/">Time Converter</a></i><noscript><a
+                        href="https://www.worldtimebuddy.com/">Time Converter</a></noscript>
+                <script>window[wtb_event_widgets.pop()].init()</script>
+            </span>
+        </div>
+        <div class="weather" id="ww_c319e2c9d9e07" v='1.3' loc='id'
+            a='{"t":"horizontal","lang":"zh","sl_lpl":1,"ids":["wl982"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+            <a href="https://weatherwidget.org/zh/" id="ww_c319e2c9d9e07_u" target="_blank">天气插件</a>
+        </div>
+        <script async src="https://app1.weatherwidget.org/js/?id=ww_c319e2c9d9e07"></script>
+        <div class="tradingview"><!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_ceda4"></div>
+                <div class="tradingview-widget-copyright"><a href="https://cn.tradingview.com/" rel="noopener nofollow"
+                        target="_blank"></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            // "autosize": true,
+                            "height": 450,
+                            "symbol": "SSE:000300",
+                            "interval": "D",
+                            "timezone": "Etc/UTC",
+                            "theme": "light",
+                            "style": "2",
+                            "locale": "zh_CN",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "container_id": "tradingview_ceda4"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </div>
+
+
 
 </body>
 
