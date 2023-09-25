@@ -5,10 +5,10 @@ comments: true
 
 <!-- ![](./assets/images/banner.jpg "Sydney") -->
 
-## :tada: Welcome 
+## Welcome 
 The last update of this blog is on {{ site.time | date_to_long_string }}.
 
-## :mortar_board: Biography
+## Biography
 Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern University of Science and Technology (SUSTech). He obtained his Doctor of Philosophy (PhD) degree in School of Computer Science, University of Technology Sydney (UTS). His main research interest centers on computer vision model compression. 
 
 <!-- His current research is on health record analysis for stroke disease. He is also concerned about financial time series data analysis with machine learning. -->
@@ -31,7 +31,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
   {% endfor %}
 </ul> -->
 
-## :newspaper: Recent posts
+## Recent posts
 * [Paper Toolbox in Zhihu](https://www.zhihu.com/column/paper-toolbox)
 * [Does neural network robust with adversarial examples?](https://medium.com/@yuezhixiong915/does-neural-network-robust-with-adversarial-examples-d95ae66c2a98?source=friends_link&sk=3dd6a85a9f4f76070f2a94620a4475a1)
 * [Let machine read and summarize research papers for you](https://medium.com/voice-tech-podcast/let-machine-read-and-summarize-research-papers-for-you-b475a0c15461)
@@ -50,7 +50,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [exchange rate from AUD to CYN](./ECharts/AUD.html)
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
-## :books: Recent publications
+## Recent publications
 * **Zhixiong Yue**, Yu Zhang, Jie Liang. [Learning Conflict-Noticed Architecture for Multi-Task Learning](./Papers/CoNAL.pdf). Proceedings of the 2023 National Conference of the American Association for Artificial Intelligence (AAAI 2023), Washington, USA, February 7-14, 2023. [CORA Rank A\*]
 
 * **Zhixiong Yue**, Baijiong Lin, Yu Zhang, Jie Liang. [Effective, Efficient and Robust Neural Architecture Search](./Papers/E2RNAS.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022. [CORA Rank A]
