@@ -9,7 +9,7 @@ comments: true
 The last update of this blog is on {{ site.time | date_to_long_string }}.
 
 ## :mortar_board: Biography
-Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern University of Science and Technology (SUSTech). He obtained his Doctor of Philosophy (PhD) degree in School of Computer Science, University of Technology Sydney (UTS). His main research interest centers on model compression. 
+Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern University of Science and Technology (SUSTech). He obtained his Doctor of Philosophy (PhD) degree in School of Computer Science, University of Technology Sydney (UTS). His main research interest centers on computer vision model compression. 
 
 <!-- His current research is on health record analysis for stroke disease. He is also concerned about financial time series data analysis with machine learning. -->
 
