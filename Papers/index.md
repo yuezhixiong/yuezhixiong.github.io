@@ -5,6 +5,8 @@ layout: default
 ---
 # Publications
 
+[Faster and Better Alignment for Flow Matching Models via Step-aware Advantages](./Papers/TAFS_GRPO_CVPR2026.pdf). 2026.  [CVPR2026 submission]
+
 **Zhixiong Yue**, Baijiong Lin, Yu Zhang, Jie Liang. [Effective, Efficient and Robust Neural Architecture Search](./Papers/E2RNAS.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022.  [CORA Rank A]
 
 **Zhixiong Yue**, Pengxin Guo, Yu Zhang, Jie Liang. [Learning Feature Alignment Architecture for Domain Adaptation](./Papers/AASPC.pdf). Proceedings of the 2022 International Joint Conference on Neural Networks (IJCNN 2022), online, 2022. [CORA Rank A]
