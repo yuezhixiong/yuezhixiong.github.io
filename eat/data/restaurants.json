@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-07-31T09:45:00+08:00",
+  "source": "manual-map-and-dianping-orange-v-verification",
+  "origin": {
+    "name": "西湖体育馆",
+    "address": "玉古路172号",
+    "location": [
+      120.130274,
+      30.26842
+    ]
+  },
+  "maxWalkingMinutes": 15,
+  "orangeVRadiusMeters": 1000,
+  "restaurants": [
+    {
+      "name": "外婆家",
+      "category": "杭帮菜",
+      "walkMinutes": 7,
+      "walkDistance": 510,
+      "address": "求是路8号",
+      "location": [120.131101, 30.264478],
+      "weight": 4,
+      "color": "#f0c83f"
+    },
+    {
+      "name": "馨餐厅",
+      "category": "中餐",
+      "walkMinutes": 9,
+      "walkDistance": 670,
+      "address": "学院路50号",
+      "location": [120.13056, 30.27364],
+      "weight": 4,
+      "color": "#86a85a"
+    },
+    {
+      "name": "川味泡菜馆",
+      "category": "川菜",
+      "walkMinutes": 11,
+      "walkDistance": 820,
+      "address": "黄姑山路11号",
+      "location": [120.133432, 30.274247],
+      "weight": 4,
+      "color": "#6f9c8a"
+    },
+    {
+      "name": "绿茶餐厅",
+      "category": "杭帮菜",
+      "walkMinutes": 13,
+      "walkDistance": 980,
+      "address": "学院路77号",
+      "location": [120.12918, 30.27599],
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "新丰小吃",
+      "category": "杭州小吃",
+      "walkMinutes": 15,
+      "walkDistance": 1150,
+      "address": "外东山弄25号",
+      "location": [120.128179, 30.259648],
+      "weight": 3,
+      "color": "#a9b981"
+    },
+    {
+      "name": "陈先进鱼馆",
+      "category": "鱼馆",
+      "walkMinutes": 8,
+      "walkDistance": 566,
+      "distanceLabel": "点评约 566 m",
+      "address": "西湖北线/黄龙",
+      "weight": 4,
+      "color": "#8faeaf",
+      "orangeVDeal": {
+        "title": "陈先进主厨选钱江源鱼头煲/土烧杂鱼双人餐",
+        "price": 78,
+        "originalPrice": 243
+      }
+    },
+    {
+      "name": "惠食记·蘭轩",
+      "category": "浙菜",
+      "walkMinutes": 4,
+      "walkDistance": 255,
+      "distanceLabel": "点评约 255 m",
+      "address": "玉古路188号现代国际大厦A座一楼",
+      "weight": 5,
+      "color": "#e89d55",
+      "orangeVDeal": {
+        "title": "橙V专享套餐"
+      }
+    },
+    {
+      "name": "渔佬佬·海鲜面",
+      "category": "面馆",
+      "walkMinutes": 2,
+      "walkDistance": 140,
+      "address": "玉古路178号-1号区块",
+      "weight": 5,
+      "color": "#d8503f"
+    },
+    {
+      "name": "港深潮滋鸡煲坊",
+      "category": "港式火锅",
+      "walkMinutes": 4,
+      "walkDistance": 221,
+      "distanceLabel": "点评约 221 m",
+      "address": "黄龙体育中心体中三路1号",
+      "weight": 5,
+      "color": "#f07b45",
+      "orangeVDeal": {
+        "title": "晚市橙V专享把酒倒满双人餐",
+        "price": 98,
+        "originalPrice": 252
+      }
+    },
+    {
+      "name": "同乐坊",
+      "category": "中餐",
+      "walkMinutes": 7,
+      "walkDistance": 500,
+      "distanceLabel": "周边距离待复核",
+      "address": "西湖体育馆周边",
+      "weight": 4,
+      "color": "#f0c83f"
+    },
+    {
+      "name": "红星牛肉馆",
+      "category": "牛肉馆",
+      "walkMinutes": 6,
+      "walkDistance": 420,
+      "distanceLabel": "周边距离待复核",
+      "address": "西湖体育馆周边",
+      "weight": 5,
+      "color": "#86a85a"
+    },
+    {
+      "name": "云蒸山雨",
+      "category": "中餐",
+      "walkMinutes": 7,
+      "walkDistance": 500,
+      "distanceLabel": "周边距离待复核",
+      "address": "西湖体育馆周边",
+      "weight": 4,
+      "color": "#6f9c8a"
+    },
+    {
+      "name": "伊北味·清真拉面村",
+      "category": "清真面馆",
+      "walkMinutes": 6,
+      "walkDistance": 450,
+      "address": "天目山路159-4号",
+      "weight": 5,
+      "color": "#e25f56"
+    },
+    {
+      "name": "福雅居·老底子杭帮菜",
+      "category": "浙菜",
+      "walkMinutes": 2,
+      "walkDistance": 103,
+      "distanceLabel": "点评约 103 m",
+      "address": "黄龙体育中心室内训练馆一层西面",
+      "weight": 5,
+      "color": "#e9b86c",
+      "orangeVDeal": {
+        "title": "福雅居招牌26橙V双人套餐",
+        "price": 88,
+        "originalPrice": 232
+      }
+    },
+    {
+      "name": "贵州生态牛肉店",
+      "category": "贵州牛肉",
+      "walkMinutes": 3,
+      "walkDistance": 187,
+      "distanceLabel": "点评约 187 m",
+      "address": "西湖北线/黄龙",
+      "weight": 5,
+      "color": "#a9b981",
+      "orangeVDeal": {
+        "title": "新店橙V专享招牌双人餐",
+        "price": 78,
+        "originalPrice": 158
+      }
+    },
+    {
+      "name": "姜记回家蒸饭·江西小炒",
+      "category": "江西菜",
+      "walkMinutes": 10,
+      "walkDistance": 722,
+      "distanceLabel": "点评约 722 m",
+      "address": "文三路沿线",
+      "weight": 4,
+      "color": "#8faeaf",
+      "orangeVDeal": {
+        "title": "江西小炒招牌双人餐",
+        "price": 58,
+        "originalPrice": 136
+      }
+    },
+    {
+      "name": "澜爵·LANJOLL",
+      "category": "西餐",
+      "walkMinutes": 10,
+      "walkDistance": 739,
+      "distanceLabel": "点评约 739 m",
+      "address": "文三路沿线",
+      "weight": 4,
+      "color": "#e89d55",
+      "orangeVDeal": {
+        "title": "澜爵双人臻选套餐",
+        "price": 178,
+        "originalPrice": 430
+      }
+    },
+    {
+      "name": "烧神24章",
+      "category": "烧烤",
+      "walkMinutes": 11,
+      "walkDistance": 820,
+      "distanceLabel": "点评约 820 m",
+      "address": "高新文教区",
+      "weight": 4,
+      "color": "#d8503f",
+      "orangeVDeal": {
+        "title": "东阳酒酿非遗经典套餐",
+        "price": 11.9,
+        "originalPrice": 24
+      }
+    },
+    {
+      "name": "莉娜重庆老火锅",
+      "category": "重庆火锅",
+      "walkMinutes": 11,
+      "walkDistance": 823,
+      "distanceLabel": "点评约 823 m",
+      "address": "文三路沿线",
+      "weight": 4,
+      "color": "#f07b45",
+      "orangeVDeal": {
+        "title": "橙V专享套餐"
+      }
+    },
+    {
+      "name": "Grilled Beef Burger 西蒙炙",
+      "category": "美式汉堡",
+      "walkMinutes": 13,
+      "walkDistance": 984,
+      "distanceLabel": "点评约 984 m",
+      "address": "文三路沿线",
+      "weight": 3,
+      "color": "#f0c83f",
+      "orangeVDeal": {
+        "title": "经典芝士牛肉汉堡双人餐",
+        "price": 39,
+        "originalPrice": 89
+      }
+    },
+    {
+      "name": "张花花重庆爆炒浇头面",
+      "category": "重庆面馆",
+      "walkMinutes": 14,
+      "walkDistance": 1000,
+      "distanceLabel": "点评约 1000 m",
+      "address": "文三路沿线",
+      "weight": 3,
+      "color": "#86a85a",
+      "orangeVDeal": {
+        "title": "重庆特色浇头面双人餐",
+        "price": 29.9,
+        "originalPrice": 59.8
+      }
+    },
+    {
+      "name": "大鼓米线",
+      "category": "米粉/米线",
+      "walkMinutes": 4,
+      "walkDistance": 300,
+      "address": "体中三路1号1幢黄龙华洋体育馆1-108号",
+      "weight": 5,
+      "color": "#d8503f"
+    },
+    {
+      "name": "麦当劳",
+      "category": "西式快餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 4,
+      "color": "#f0c83f"
+    },
+    {
+      "name": "很累海南鸡饭",
+      "category": "海南鸡饭",
+      "walkMinutes": 9,
+      "walkDistance": 675,
+      "distanceLabel": "周边距离待复核",
+      "address": "西湖体育馆周边",
+      "weight": 4,
+      "color": "#8faeaf"
+    }
+  ]
+}

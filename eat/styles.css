@@ -1,0 +1,893 @@
+:root {
+  --paper: #f3efe5;
+  --ink: #172019;
+  --muted: #6e7169;
+  --line: rgba(23, 32, 25, 0.2);
+  --acid: #dfff36;
+  --panel: #182019;
+  --white: #fffef7;
+  --zhang: #ff6b4a;
+  --hu: #2b7de9;
+  --wang: #8f63c7;
+  --le: #168c66;
+  --radius: 2px;
+  font-family: "Avenir Next", "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--paper);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(rgba(23, 32, 25, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 32, 25, 0.035) 1px, transparent 1px),
+    var(--paper);
+  background-size: 32px 32px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+  width: min(1540px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 42px 38px;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 86px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.brand {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  color: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--paper);
+  background: var(--ink);
+  font-family: "Songti SC", "STSong", serif;
+  font-size: 19px;
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #49a55a;
+  box-shadow: 0 0 0 4px rgba(73, 165, 90, 0.14);
+}
+
+.restaurant-count {
+  margin-left: 11px;
+  padding-left: 19px;
+  border-left: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.decision-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(310px, 25%);
+  min-height: calc(100vh - 124px);
+  padding-top: 36px;
+}
+
+.map-panel {
+  display: flex;
+  min-width: 0;
+  padding-right: 32px;
+  flex-direction: column;
+}
+
+.map-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 26px;
+}
+
+.map-heading h1 {
+  max-width: 650px;
+  margin: 0;
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: clamp(44px, 5.2vw, 78px);
+  font-weight: 700;
+  letter-spacing: -0.055em;
+  line-height: 0.98;
+}
+
+.map-heading p {
+  max-width: 230px;
+  margin: 0 0 5px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.75;
+  text-align: right;
+}
+
+.vote-toolbar {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) auto auto auto;
+  align-items: center;
+  gap: 14px;
+  margin: -8px 0 20px;
+  padding: 11px 12px 11px 15px;
+  border: 1px solid var(--ink);
+  background: rgba(255, 254, 247, 0.58);
+}
+
+.vote-intro span {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.vote-intro p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.user-switcher {
+  display: flex;
+  gap: 5px;
+}
+
+.user-button {
+  position: relative;
+  display: grid;
+  width: 39px;
+  height: 39px;
+  padding: 0;
+  place-items: center;
+  border: 1px solid var(--ink);
+  border-radius: 50%;
+  background: var(--paper);
+  cursor: pointer;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.user-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.user-button.is-current {
+  box-shadow: 0 0 0 3px var(--acid), 0 0 0 4px var(--ink);
+}
+
+.user-button small {
+  position: absolute;
+  right: -4px;
+  bottom: -3px;
+  display: grid;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 3px;
+  place-items: center;
+  border: 1px solid var(--ink);
+  border-radius: 9px;
+  color: var(--white);
+  background: var(--ink);
+  font-size: 8px;
+}
+
+.user-avatar,
+.tile-voter {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--white);
+  font-weight: 900;
+}
+
+.user-avatar {
+  width: 31px;
+  height: 31px;
+  font-family: "Songti SC", "STSong", serif;
+  font-size: 15px;
+}
+
+.user-zhang { background: var(--zhang); }
+.user-hu { background: var(--hu); }
+.user-wang { background: var(--wang); }
+.user-le { background: var(--le); }
+
+.selected-only-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.selected-only-control input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.toggle-track {
+  display: flex;
+  width: 38px;
+  height: 22px;
+  padding: 3px;
+  align-items: center;
+  border: 1px solid var(--ink);
+  border-radius: 12px;
+  background: var(--paper);
+  transition: background-color 140ms ease;
+}
+
+.toggle-track span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ink);
+  transition: transform 140ms ease;
+}
+
+.selected-only-control input:checked + .toggle-track {
+  background: var(--acid);
+}
+
+.selected-only-control input:checked + .toggle-track span {
+  transform: translateX(16px);
+}
+
+.selected-only-control input:focus-visible + .toggle-track {
+  outline: 2px solid var(--ink);
+  outline-offset: 3px;
+}
+
+.toggle-copy {
+  display: grid;
+  line-height: 1.05;
+}
+
+.toggle-copy strong {
+  font-size: 10px;
+}
+
+.toggle-copy small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 8px;
+}
+
+.clear-selections {
+  padding: 7px 9px;
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: transparent;
+  cursor: pointer;
+  font: 700 9px/1 inherit;
+}
+
+.clear-selections:disabled {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.treemap-wrap {
+  position: relative;
+  min-height: 440px;
+  flex: 1;
+}
+
+.treemap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border: 3px solid var(--ink);
+  background: var(--ink);
+}
+
+.restaurant-tile {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  padding: clamp(10px, 1.25vw, 20px);
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  cursor: pointer;
+  isolation: isolate;
+  transition: filter 160ms ease, opacity 160ms ease, transform 160ms ease;
+}
+
+.restaurant-tile:focus-visible {
+  outline: 4px solid var(--acid);
+  outline-offset: -6px;
+  z-index: 15;
+}
+
+.restaurant-tile.is-picked::before {
+  position: absolute;
+  inset: 4px;
+  border: 1px dashed rgba(23, 32, 25, 0.58);
+  content: "";
+  pointer-events: none;
+}
+
+.restaurant-tile.is-picked-by-current {
+  box-shadow: inset 0 0 0 4px var(--acid);
+}
+
+.restaurant-tile::after {
+  position: absolute;
+  inset: 0;
+  border: 0 solid var(--white);
+  content: "";
+  pointer-events: none;
+  transition: border-width 90ms ease, background-color 90ms ease;
+  z-index: -1;
+}
+
+.restaurant-tile.is-active {
+  filter: saturate(1.28) brightness(1.12);
+  transform: scale(0.985);
+  z-index: 10;
+}
+
+.restaurant-tile.is-active::after {
+  border-width: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.treemap.is-drawing .restaurant-tile:not(.is-active) {
+  filter: saturate(0.55) brightness(0.78);
+  opacity: 0.72;
+}
+
+.treemap.has-winner .restaurant-tile:not(.is-winner) {
+  filter: grayscale(0.58) saturate(0.3) brightness(0.62);
+  opacity: 0.62;
+}
+
+.restaurant-tile.is-winner {
+  animation: winner-pulse 700ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  filter: saturate(1.22) brightness(1.05);
+  z-index: 12;
+}
+
+.restaurant-tile.is-winner::after {
+  border-width: 7px;
+  box-shadow: inset 0 0 0 2px var(--ink);
+}
+
+.tile-name {
+  margin: 0;
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: clamp(17px, 2vw, 31px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.06;
+}
+
+.tile-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.tile-markers {
+  display: grid;
+  flex: none;
+  justify-items: end;
+  gap: 5px;
+}
+
+.tile-voters {
+  display: flex;
+  flex-direction: row-reverse;
+  min-height: 19px;
+  padding-left: 5px;
+}
+
+.tile-voter {
+  width: 19px;
+  height: 19px;
+  margin-left: -5px;
+  border: 1px solid var(--white);
+  font-size: 8px;
+  box-shadow: 0 1px 2px rgba(23, 32, 25, 0.3);
+}
+
+.orange-v-badge {
+  padding: 3px 5px 2px;
+  flex: none;
+  border: 1px solid currentColor;
+  font-size: 8px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+.tile-meta {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.3;
+}
+
+.tile-facts {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tile-facts > * {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tile-price {
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+.tile-weight {
+  font-family: Georgia, serif;
+  font-size: clamp(20px, 2.6vw, 39px);
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  line-height: 0.8;
+}
+
+.restaurant-tile.is-small {
+  padding: 9px;
+}
+
+.restaurant-tile.is-small .tile-name {
+  font-size: clamp(13px, 1.15vw, 18px);
+}
+
+.restaurant-tile.is-small .tile-category {
+  display: none;
+}
+
+.restaurant-tile.is-small .tile-facts {
+  gap: 0;
+  font-size: 8px;
+  letter-spacing: 0;
+  line-height: 1.15;
+}
+
+.restaurant-tile.is-small .tile-price {
+  font-size: 9px;
+}
+
+.restaurant-tile.is-small .fact-prefix {
+  display: none;
+}
+
+.restaurant-tile.is-small .orange-v-badge {
+  display: none;
+}
+
+.restaurant-tile.is-small .tile-markers {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.restaurant-tile.is-small .tile-voter {
+  width: 15px;
+  height: 15px;
+  margin-left: -5px;
+  font-size: 7px;
+}
+
+.restaurant-tile.is-small .tile-weight {
+  display: none;
+}
+
+.map-corner {
+  position: absolute;
+  right: -9px;
+  bottom: -9px;
+  display: grid;
+  width: 66px;
+  height: 66px;
+  place-items: center;
+  border: 2px solid var(--ink);
+  color: var(--ink);
+  background: var(--acid);
+  cursor: pointer;
+  font-family: Georgia, serif;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  line-height: 1.2;
+  text-align: center;
+  transform: rotate(3deg);
+  transition: background-color 140ms ease, transform 140ms ease;
+  z-index: 20;
+}
+
+.map-corner:hover:not(:disabled) {
+  background: #edff82;
+  transform: rotate(0deg) scale(1.05);
+}
+
+.map-corner:focus-visible {
+  outline: 3px solid var(--white);
+  outline-offset: -7px;
+}
+
+.map-corner:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.control-panel {
+  display: flex;
+  min-height: 0;
+  padding: 24px 26px 22px;
+  flex-direction: column;
+  border: 2px solid var(--ink);
+  color: var(--white);
+  background:
+    radial-gradient(circle at 80% 20%, rgba(223, 255, 54, 0.08), transparent 32%),
+    var(--panel);
+}
+
+.panel-topline,
+.panel-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  color: rgba(255, 254, 247, 0.55);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.panel-topline {
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.result {
+  display: flex;
+  min-height: 260px;
+  padding: 36px 0 28px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-label {
+  margin: 0 0 17px;
+  color: var(--acid);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.result h2 {
+  margin: 0;
+  font-family: "Songti SC", "STSong", Georgia, serif;
+  font-size: clamp(35px, 3.5vw, 56px);
+  font-weight: 800;
+  letter-spacing: -0.06em;
+  line-height: 1.04;
+}
+
+.result-detail {
+  max-width: 290px;
+  margin: 21px 0 0;
+  color: rgba(255, 254, 247, 0.58);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.result.is-settled h2 {
+  animation: result-rise 500ms ease both;
+}
+
+.weight-legend {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  margin: auto 0 22px;
+  color: rgba(255, 254, 247, 0.42);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.legend-line {
+  height: 3px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.15), var(--acid));
+}
+
+.draw-button {
+  display: flex;
+  width: 100%;
+  min-height: 74px;
+  padding: 0 9px 0 24px;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  border-radius: var(--radius);
+  color: var(--ink);
+  background: var(--acid);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.draw-button:hover:not(:disabled) {
+  background: #edff82;
+  transform: translateY(-2px);
+}
+
+.draw-button:focus-visible {
+  outline: 3px solid var(--white);
+  outline-offset: 4px;
+}
+
+.draw-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.draw-button:disabled {
+  cursor: wait;
+  opacity: 0.86;
+}
+
+.button-icon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--ink);
+}
+
+.button-icon svg {
+  width: 22px;
+  fill: none;
+  stroke: var(--acid);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.draw-button.is-running .button-icon {
+  animation: orbit 620ms linear infinite;
+}
+
+.shortcut-hint {
+  margin: 11px 0 26px;
+  color: rgba(255, 254, 247, 0.38);
+  font-size: 10px;
+  text-align: center;
+}
+
+.panel-footer {
+  padding-top: 19px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.panel-footer strong {
+  color: var(--white);
+  font-size: 10px;
+}
+
+@keyframes winner-pulse {
+  0% { transform: scale(0.96); }
+  50% { transform: scale(1); }
+  70% { transform: scale(0.985); }
+  100% { transform: scale(1); }
+}
+
+@keyframes result-rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes orbit {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 900px) {
+  .app-shell {
+    padding: 0 22px 28px;
+  }
+
+  .decision-board {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding-top: 28px;
+  }
+
+  .map-panel {
+    padding-right: 0;
+  }
+
+  .treemap-wrap {
+    min-height: 500px;
+  }
+
+  .control-panel {
+    min-height: 470px;
+  }
+
+  .result {
+    min-height: 210px;
+  }
+
+  .vote-toolbar {
+    grid-template-columns: minmax(150px, 1fr) auto auto auto;
+  }
+}
+
+@media (max-width: 560px) {
+  .app-shell {
+    padding: 0 14px 18px;
+  }
+
+  .site-header {
+    min-height: 70px;
+  }
+
+  .brand {
+    gap: 9px;
+    font-size: 14px;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .header-meta > span:not(.status-dot):not(.restaurant-count) {
+    display: none;
+  }
+
+  .restaurant-count {
+    margin-left: 4px;
+    padding-left: 12px;
+  }
+
+  .decision-board {
+    padding-top: 22px;
+  }
+
+  .map-heading {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .map-heading h1 {
+    font-size: clamp(41px, 13vw, 60px);
+  }
+
+  .map-heading p {
+    margin-top: 17px;
+    text-align: left;
+  }
+
+  .vote-toolbar {
+    grid-template-columns: 1fr auto;
+    gap: 12px;
+    margin-top: -3px;
+    padding: 12px;
+  }
+
+  .user-switcher {
+    justify-self: end;
+  }
+
+  .selected-only-control {
+    justify-self: start;
+  }
+
+  .clear-selections {
+    justify-self: end;
+  }
+
+  .treemap-wrap {
+    min-height: 490px;
+  }
+
+  .restaurant-tile {
+    padding: 10px;
+  }
+
+  .tile-name {
+    font-size: clamp(15px, 5.2vw, 23px);
+  }
+
+  .tile-category {
+    display: none;
+  }
+
+  .tile-weight {
+    font-size: 20px;
+  }
+
+  .restaurant-tile.is-small .tile-name {
+    font-size: 12px;
+  }
+
+  .map-corner {
+    right: -4px;
+    bottom: -28px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .control-panel {
+    min-height: 440px;
+    padding: 21px 20px;
+  }
+
+  .result h2 {
+    font-size: 42px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

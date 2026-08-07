@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="从杭州西湖体育馆出发，在步行十五分钟范围内随机选择真实餐厅。">
+  <title>今天吃什么 · 西湖体育馆附近餐厅</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="今天吃什么首页">
+        <span class="brand-mark" aria-hidden="true">吃</span>
+        <span>今天吃什么</span>
+      </a>
+      <div class="header-meta">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span>西湖体育馆 · 步行 15 分钟</span>
+        <span class="restaurant-count" id="restaurant-count">10 家</span>
+      </div>
+    </header>
+
+    <section class="decision-board" aria-labelledby="page-title">
+      <div class="map-panel">
+        <div class="map-heading">
+          <div>
+            <h1 id="page-title">走出体育馆，<br>让运气带路。</h1>
+          </div>
+          <p>含步行约 15 分钟内餐厅，以及点评橙V 1 km 内套餐门店。<br>面积越大，被选中的概率越高。</p>
+        </div>
+
+        <section class="vote-toolbar" aria-label="用户餐厅选择">
+          <div class="vote-intro">
+            <span>先选人，再点餐厅</span>
+            <p id="selection-summary">还没有人选择餐厅</p>
+          </div>
+          <div class="user-switcher" role="group" aria-label="当前选择用户">
+            <button class="user-button is-current" type="button" data-user-id="zhang" aria-pressed="true" aria-label="选择用户章">
+              <span class="user-avatar user-zhang" aria-hidden="true">章</span>
+              <small>0</small>
+            </button>
+            <button class="user-button" type="button" data-user-id="hu" aria-pressed="false" aria-label="选择用户胡">
+              <span class="user-avatar user-hu" aria-hidden="true">胡</span>
+              <small>0</small>
+            </button>
+            <button class="user-button" type="button" data-user-id="wang" aria-pressed="false" aria-label="选择用户王">
+              <span class="user-avatar user-wang" aria-hidden="true">王</span>
+              <small>0</small>
+            </button>
+            <button class="user-button" type="button" data-user-id="le" aria-pressed="false" aria-label="选择用户乐">
+              <span class="user-avatar user-le" aria-hidden="true">乐</span>
+              <small>0</small>
+            </button>
+          </div>
+          <label class="selected-only-control" for="selected-only">
+            <input id="selected-only" type="checkbox">
+            <span class="toggle-track" aria-hidden="true"><span></span></span>
+            <span class="toggle-copy">
+              <strong>仅抽已选</strong>
+              <small>用户均权</small>
+            </span>
+          </label>
+          <button class="clear-selections" id="clear-selections" type="button" disabled>清空</button>
+        </section>
+
+        <div class="treemap-wrap">
+          <div class="treemap" id="treemap" aria-label="按权重显示的餐厅矩形地图"></div>
+          <button class="map-corner" id="corner-draw-button" type="button" aria-label="开始随机选择餐厅">WEIGHTED<br>PICK</button>
+        </div>
+      </div>
+
+      <aside class="control-panel" aria-label="随机选择控制台">
+        <div class="panel-topline">
+          <span>西湖体育馆出发</span>
+          <span id="round-label">ROUND 01</span>
+        </div>
+
+        <div class="result" id="result" aria-live="polite">
+          <p class="result-label" id="result-label">等待开饭</p>
+          <h2 id="result-name">会是哪一家？</h2>
+          <p class="result-detail" id="result-detail">附近餐厅已经就位，距离越近的餐厅获得略高权重。</p>
+        </div>
+
+        <div class="weight-legend">
+          <span>低权重</span>
+          <div class="legend-line" aria-hidden="true"></div>
+          <span>高权重</span>
+        </div>
+
+        <button class="draw-button" id="draw-button" type="button">
+          <span class="button-label">开始随机</span>
+          <span class="button-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" role="img">
+              <path d="M5 12h13M14 7l5 5-5 5"/>
+            </svg>
+          </span>
+        </button>
+        <p class="shortcut-hint">按空格键也可以开始</p>
+
+        <div class="panel-footer">
+          <span>选择逻辑</span>
+          <strong id="selection-rule">面积 = 概率</strong>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
