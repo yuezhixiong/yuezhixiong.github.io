@@ -9,7 +9,7 @@ const fallbackRestaurants = [
   { name: "伊北味·清真拉面村", category: "清真面馆", walkMinutes: 6, address: "天目山路159-4号", weight: 7, color: "#e9b86c" },
   { name: "福雅居·老底子杭帮菜", category: "浙菜", walkMinutes: 2, address: "黄龙体育中心", weight: 8, color: "#a9b981", orangeVDeal: { title: "招牌橙V双人套餐", price: 88 } },
   { name: "贵州生态牛肉店", category: "贵州牛肉", walkMinutes: 3, address: "西湖北线/黄龙", weight: 8, color: "#f07b45", orangeVDeal: { title: "橙V招牌双人餐", price: 78 } },
-  { name: "张花花重庆爆炒浇头面", category: "重庆面馆", walkMinutes: 14, address: "文三路沿线", weight: 5, color: "#f0c83f", orangeVDeal: { title: "浇头面双人餐", price: 29.9 } },
+  { name: "Kpro", category: "西式简餐", walkMinutes: 8, address: "黄龙体育中心周边", weight: 5, color: "#f0c83f" },
   { name: "大鼓米线", category: "米粉/米线", walkMinutes: 4, address: "体中三路1号黄龙华洋体育馆", weight: 8, color: "#d8503f" },
   { name: "麦当劳", category: "西式快餐", walkMinutes: 8, address: "黄龙体育中心周边", weight: 6, color: "#f0c83f" },
   { name: "很累海南鸡饭", category: "海南鸡饭", walkMinutes: 9, address: "西湖体育馆周边", weight: 6, color: "#8faeaf" }

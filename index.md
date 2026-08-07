@@ -46,7 +46,7 @@ Zhixiong Yue obtained his B.E. in Computer Science and Technology, Southern Univ
 * [gold price of USD per ounce](./ECharts/gold.html) -->
 
 ## Recent publications
-* **Zhixiong Yue**, Zixuan Ni, Feiyang Ye, Jinshan Zhang, Sheng Shen, Zhenpeng Mi. [Know Your Step: Faster and Better Alignment for Flow Matching Models via Step-aware Advantages](https://arxiv.org/abs/2602.01591). arXiv preprint arXiv:2602.01591, 2026.
+* [Zhixiong Yue](https://arxiv.org/search/cs?searchtype=author&query=Yue,+Z), [Feiyang Ye](https://arxiv.org/search/cs?searchtype=author&query=Ye,+F), [Zixuan Ni](https://arxiv.org/search/cs?searchtype=author&query=Ni,+Z), [Sheng Shen](https://arxiv.org/search/cs?searchtype=author&query=Shen,+S), [Yu Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+Y). [Know Your Step: Faster and Better Alignment for Flow Matching Models via Step-aware Advantages](https://arxiv.org/abs/2602.01591). arXiv preprint arXiv:2602.01591, 2026.
 
 * **Zhixiong Yue**, Yu Zhang, Jie Liang. [Learning Conflict-Noticed Architecture for Multi-Task Learning](./Papers/CoNAL.pdf). Proceedings of the 2023 National Conference of the American Association for Artificial Intelligence (AAAI 2023), Washington, USA, February 7-14, 2023. [CORA Rank A\*]
 

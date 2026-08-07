@@ -53,16 +53,6 @@
       "color": "#e25f56"
     },
     {
-      "name": "新丰小吃",
-      "category": "杭州小吃",
-      "walkMinutes": 15,
-      "walkDistance": 1150,
-      "address": "外东山弄25号",
-      "location": [120.128179, 30.259648],
-      "weight": 3,
-      "color": "#a9b981"
-    },
-    {
       "name": "陈先进鱼馆",
       "category": "鱼馆",
       "walkMinutes": 8,
@@ -84,7 +74,7 @@
       "walkDistance": 255,
       "distanceLabel": "点评约 255 m",
       "address": "玉古路188号现代国际大厦A座一楼",
-      "weight": 5,
+      "weight": 4,
       "color": "#e89d55",
       "orangeVDeal": {
         "title": "橙V专享套餐"
@@ -106,7 +96,7 @@
       "walkDistance": 221,
       "distanceLabel": "点评约 221 m",
       "address": "黄龙体育中心体中三路1号",
-      "weight": 5,
+      "weight": 4,
       "color": "#f07b45",
       "orangeVDeal": {
         "title": "晚市橙V专享把酒倒满双人餐",
@@ -131,7 +121,7 @@
       "walkDistance": 420,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 5,
+      "weight": 4,
       "color": "#86a85a"
     },
     {
@@ -150,7 +140,7 @@
       "walkMinutes": 6,
       "walkDistance": 450,
       "address": "天目山路159-4号",
-      "weight": 5,
+      "weight": 4,
       "color": "#e25f56"
     },
     {
@@ -160,7 +150,7 @@
       "walkDistance": 103,
       "distanceLabel": "点评约 103 m",
       "address": "黄龙体育中心室内训练馆一层西面",
-      "weight": 5,
+      "weight": 4,
       "color": "#e9b86c",
       "orangeVDeal": {
         "title": "福雅居招牌26橙V双人套餐",
@@ -175,7 +165,7 @@
       "walkDistance": 187,
       "distanceLabel": "点评约 187 m",
       "address": "西湖北线/黄龙",
-      "weight": 5,
+      "weight": 4,
       "color": "#a9b981",
       "orangeVDeal": {
         "title": "新店橙V专享招牌双人餐",
@@ -184,7 +174,7 @@
       }
     },
     {
-      "name": "姜记回家蒸饭·江西小炒",
+      "name": "姜姜好家庭厨房",
       "category": "江西菜",
       "walkMinutes": 10,
       "walkDistance": 722,
@@ -214,62 +204,24 @@
       }
     },
     {
-      "name": "烧神24章",
-      "category": "烧烤",
-      "walkMinutes": 11,
-      "walkDistance": 820,
-      "distanceLabel": "点评约 820 m",
-      "address": "高新文教区",
+      "name": "必胜客",
+      "category": "披萨/西式餐饮",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
       "weight": 4,
-      "color": "#d8503f",
-      "orangeVDeal": {
-        "title": "东阳酒酿非遗经典套餐",
-        "price": 11.9,
-        "originalPrice": 24
-      }
+      "color": "#f07b45"
     },
     {
-      "name": "莉娜重庆老火锅",
-      "category": "重庆火锅",
-      "walkMinutes": 11,
-      "walkDistance": 823,
-      "distanceLabel": "点评约 823 m",
-      "address": "文三路沿线",
+      "name": "Kpro",
+      "category": "西式简餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
       "weight": 4,
-      "color": "#f07b45",
-      "orangeVDeal": {
-        "title": "橙V专享套餐"
-      }
-    },
-    {
-      "name": "Grilled Beef Burger 西蒙炙",
-      "category": "美式汉堡",
-      "walkMinutes": 13,
-      "walkDistance": 984,
-      "distanceLabel": "点评约 984 m",
-      "address": "文三路沿线",
-      "weight": 3,
-      "color": "#f0c83f",
-      "orangeVDeal": {
-        "title": "经典芝士牛肉汉堡双人餐",
-        "price": 39,
-        "originalPrice": 89
-      }
-    },
-    {
-      "name": "张花花重庆爆炒浇头面",
-      "category": "重庆面馆",
-      "walkMinutes": 14,
-      "walkDistance": 1000,
-      "distanceLabel": "点评约 1000 m",
-      "address": "文三路沿线",
-      "weight": 3,
-      "color": "#86a85a",
-      "orangeVDeal": {
-        "title": "重庆特色浇头面双人餐",
-        "price": 29.9,
-        "originalPrice": 59.8
-      }
+      "color": "#86a85a"
     },
     {
       "name": "大鼓米线",
@@ -277,7 +229,7 @@
       "walkMinutes": 4,
       "walkDistance": 300,
       "address": "体中三路1号1幢黄龙华洋体育馆1-108号",
-      "weight": 5,
+      "weight": 4,
       "color": "#d8503f"
     },
     {
@@ -299,6 +251,46 @@
       "address": "西湖体育馆周边",
       "weight": 4,
       "color": "#8faeaf"
+    },
+    {
+      "name": "杭一碗",
+      "category": "杭帮面/中式简餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 4,
+      "color": "#e89d55"
+    },
+    {
+      "name": "老乡鸡",
+      "category": "中式快餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 4,
+      "color": "#6f9c8a"
+    },
+    {
+      "name": "米村拌饭",
+      "category": "东北拌饭",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 4,
+      "color": "#e25f56"
+    },
+    {
+      "name": "KFC",
+      "category": "西式快餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 4,
+      "color": "#d8503f"
     }
   ]
 }
