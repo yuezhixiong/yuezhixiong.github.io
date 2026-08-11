@@ -29,11 +29,12 @@ const INTERNATIONAL_RESTAURANTS = new Set([
   "外婆家", "澜爵·LANJOLL", "绿茶餐厅"
 ]);
 const HUANGGU_RESTAURANTS = new Set([
-  "川味泡菜馆", "姜姜好家庭厨房", "红星牛肉馆",
+  "川味泡菜馆", "姜姜好家庭厨房", "红星牛肉馆", "Kpro",
   "陈先进鱼馆", "农家土菜馆"
 ]);
 const OTHER_RESTAURANTS = new Set([
-  "松木场面馆", "很累海南鸡饭", "惠食记·蘭轩", "同乐坊"
+  "松木场面馆", "很累海南鸡饭", "惠食记·蘭轩", "同乐坊",
+  "麦当劳", "杭一碗"
 ]);
 
 let restaurants = fallbackRestaurants;
@@ -351,9 +352,10 @@ function renderDrawHistory() {
   [...drawHistory].reverse().forEach((entry) => {
     const item = document.createElement("li");
     item.innerHTML = `
-      <span>${String(entry.round).padStart(2, "0")}</span>
+      <span class="draw-history-round">${String(entry.round).padStart(2, "0")}</span>
+      <span class="draw-history-swatch" style="--history-color: ${entry.color}" aria-label="${entry.area}" title="${entry.area}"></span>
       <strong>${entry.name}</strong>
-      <small>${entry.area}</small>
+      <small>${entry.distance} m</small>
     `;
     drawHistoryList.appendChild(item);
   });
@@ -453,7 +455,9 @@ async function runDraw() {
   drawHistory.push({
     round,
     name: winner.name,
-    area: AREA_CONFIG[getRestaurantAreaKey(winner)].label
+    area: AREA_CONFIG[getRestaurantAreaKey(winner)].label,
+    color: AREA_CONFIG[getRestaurantAreaKey(winner)].color,
+    distance: winner.walkDistance
   });
   renderDrawHistory();
 

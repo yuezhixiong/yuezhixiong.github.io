@@ -703,16 +703,25 @@ a {
 
 .draw-history-list li:not(.draw-history-empty) {
   display: grid;
-  grid-template-columns: 24px minmax(0, 1fr) auto;
+  grid-template-columns: 24px 10px minmax(0, 1fr) auto;
   align-items: baseline;
   gap: 8px;
   font-size: 10px;
 }
 
-.draw-history-list li > span,
+.draw-history-round,
 .draw-history-list li > small,
 .draw-history-empty {
   color: rgba(255, 254, 247, 0.5);
+}
+
+.draw-history-swatch {
+  width: 9px;
+  height: 9px;
+  align-self: center;
+  border: 1px solid rgba(255, 254, 247, 0.6);
+  border-radius: 50%;
+  background: var(--history-color);
 }
 
 .draw-history-list li > strong {
