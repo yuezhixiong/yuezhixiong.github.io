@@ -19,7 +19,7 @@
       "walkDistance": 510,
       "address": "求是路8号",
       "location": [120.131101, 30.264478],
-      "weight": 4,
+      "weight": 3,
       "color": "#f0c83f"
     },
     {
@@ -29,7 +29,7 @@
       "walkDistance": 670,
       "address": "学院路50号",
       "location": [120.13056, 30.27364],
-      "weight": 4,
+      "weight": 3,
       "color": "#86a85a"
     },
     {
@@ -39,7 +39,7 @@
       "walkDistance": 820,
       "address": "黄姑山路11号",
       "location": [120.133432, 30.274247],
-      "weight": 4,
+      "weight": 3,
       "color": "#6f9c8a"
     },
     {
@@ -59,7 +59,7 @@
       "walkDistance": 566,
       "distanceLabel": "点评约 566 m",
       "address": "西湖北线/黄龙",
-      "weight": 4,
+      "weight": 3,
       "color": "#8faeaf",
       "orangeVDeal": {
         "title": "陈先进主厨选钱江源鱼头煲/土烧杂鱼双人餐",
@@ -68,13 +68,23 @@
       }
     },
     {
+      "name": "农家土菜馆",
+      "category": "农家菜",
+      "walkMinutes": 11,
+      "walkDistance": 820,
+      "distanceLabel": "黄姑山路周边，距离待复核",
+      "address": "黄姑山路周边",
+      "weight": 3,
+      "color": "#7ea990"
+    },
+    {
       "name": "惠食记·蘭轩",
       "category": "浙菜",
       "walkMinutes": 4,
       "walkDistance": 255,
       "distanceLabel": "点评约 255 m",
       "address": "玉古路188号现代国际大厦A座一楼",
-      "weight": 4,
+      "weight": 3,
       "color": "#e89d55",
       "orangeVDeal": {
         "title": "橙V专享套餐"
@@ -86,7 +96,7 @@
       "walkMinutes": 2,
       "walkDistance": 140,
       "address": "玉古路178号-1号区块",
-      "weight": 5,
+      "weight": 3,
       "color": "#d8503f"
     },
     {
@@ -96,7 +106,7 @@
       "walkDistance": 221,
       "distanceLabel": "点评约 221 m",
       "address": "黄龙体育中心体中三路1号",
-      "weight": 4,
+      "weight": 3,
       "color": "#f07b45",
       "orangeVDeal": {
         "title": "晚市橙V专享把酒倒满双人餐",
@@ -111,7 +121,7 @@
       "walkDistance": 500,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#f0c83f"
     },
     {
@@ -121,7 +131,7 @@
       "walkDistance": 420,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#86a85a"
     },
     {
@@ -131,7 +141,7 @@
       "walkDistance": 500,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#6f9c8a"
     },
     {
@@ -140,7 +150,7 @@
       "walkMinutes": 6,
       "walkDistance": 450,
       "address": "天目山路159-4号",
-      "weight": 4,
+      "weight": 3,
       "color": "#e25f56"
     },
     {
@@ -150,7 +160,7 @@
       "walkDistance": 103,
       "distanceLabel": "点评约 103 m",
       "address": "黄龙体育中心室内训练馆一层西面",
-      "weight": 4,
+      "weight": 3,
       "color": "#e9b86c",
       "orangeVDeal": {
         "title": "福雅居招牌26橙V双人套餐",
@@ -165,7 +175,7 @@
       "walkDistance": 187,
       "distanceLabel": "点评约 187 m",
       "address": "西湖北线/黄龙",
-      "weight": 4,
+      "weight": 3,
       "color": "#a9b981",
       "orangeVDeal": {
         "title": "新店橙V专享招牌双人餐",
@@ -180,7 +190,7 @@
       "walkDistance": 722,
       "distanceLabel": "点评约 722 m",
       "address": "文三路沿线",
-      "weight": 4,
+      "weight": 3,
       "color": "#8faeaf",
       "orangeVDeal": {
         "title": "江西小炒招牌双人餐",
@@ -195,7 +205,7 @@
       "walkDistance": 739,
       "distanceLabel": "点评约 739 m",
       "address": "文三路沿线",
-      "weight": 4,
+      "weight": 3,
       "color": "#e89d55",
       "orangeVDeal": {
         "title": "澜爵双人臻选套餐",
@@ -210,7 +220,7 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#f07b45"
     },
     {
@@ -220,7 +230,7 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#86a85a"
     },
     {
@@ -229,7 +239,7 @@
       "walkMinutes": 4,
       "walkDistance": 300,
       "address": "体中三路1号1幢黄龙华洋体育馆1-108号",
-      "weight": 4,
+      "weight": 3,
       "color": "#d8503f"
     },
     {
@@ -239,7 +249,7 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#f0c83f"
     },
     {
@@ -249,7 +259,7 @@
       "walkDistance": 675,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#8faeaf"
     },
     {
@@ -259,7 +269,7 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#e89d55"
     },
     {
@@ -269,8 +279,18 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 2,
       "color": "#6f9c8a"
+    },
+    {
+      "name": "老娘舅",
+      "category": "中式快餐",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "周边距离待复核",
+      "address": "黄龙体育中心周边",
+      "weight": 3,
+      "color": "#a9b981"
     },
     {
       "name": "米村拌饭",
@@ -279,7 +299,7 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#e25f56"
     },
     {
@@ -289,8 +309,78 @@
       "walkDistance": 600,
       "distanceLabel": "周边距离待复核",
       "address": "黄龙体育中心周边",
-      "weight": 4,
+      "weight": 3,
       "color": "#d8503f"
+    },
+    {
+      "name": "松木场面馆",
+      "category": "面馆",
+      "walkMinutes": 12,
+      "walkDistance": 900,
+      "distanceLabel": "周边距离待复核",
+      "address": "松木场周边",
+      "weight": 2,
+      "color": "#e9b86c"
+    },
+    {
+      "name": "星平鸡饭",
+      "category": "海南鸡饭",
+      "walkMinutes": 7,
+      "walkDistance": 500,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "煮饭佬",
+      "category": "中式快餐",
+      "walkMinutes": 7,
+      "walkDistance": 520,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "池奈",
+      "category": "日式简餐",
+      "walkMinutes": 8,
+      "walkDistance": 560,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "豆腐家",
+      "category": "韩式料理",
+      "walkMinutes": 8,
+      "walkDistance": 580,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "越富南洋",
+      "category": "东南亚菜",
+      "walkMinutes": 8,
+      "walkDistance": 600,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
+    },
+    {
+      "name": "厨创",
+      "category": "中式简餐",
+      "walkMinutes": 9,
+      "walkDistance": 650,
+      "distanceLabel": "黄龙国际中心门店",
+      "address": "黄龙国际中心",
+      "weight": 3,
+      "color": "#e25f56"
     }
   ]
 }

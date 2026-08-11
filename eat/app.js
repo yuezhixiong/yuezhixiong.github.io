@@ -1,26 +1,40 @@
 const fallbackRestaurants = [
-  { name: "惠食记·蘭轩", category: "浙菜", walkMinutes: 4, address: "玉古路188号", weight: 8, color: "#e89d55", orangeVDeal: { title: "橙V专享套餐" } },
-  { name: "渔佬佬·海鲜面", category: "面馆", walkMinutes: 2, address: "玉古路178号", weight: 8, color: "#d8503f" },
-  { name: "港深潮滋鸡煲坊", category: "港式火锅", walkMinutes: 4, address: "黄龙体育中心", weight: 8, color: "#f0c83f", orangeVDeal: { title: "橙V专享双人餐", price: 98 } },
-  { name: "陈先进鱼馆", category: "鱼馆", walkMinutes: 8, address: "西湖北线/黄龙", weight: 7, color: "#8faeaf", orangeVDeal: { title: "鱼头煲双人餐", price: 78 } },
-  { name: "同乐坊", category: "中餐", walkMinutes: 7, address: "西湖体育馆周边", weight: 7, color: "#86a85a" },
-  { name: "红星牛肉馆", category: "牛肉馆", walkMinutes: 6, address: "西湖体育馆周边", weight: 7, color: "#6f9c8a" },
-  { name: "云蒸山雨", category: "中餐", walkMinutes: 7, address: "西湖体育馆周边", weight: 7, color: "#e25f56" },
-  { name: "伊北味·清真拉面村", category: "清真面馆", walkMinutes: 6, address: "天目山路159-4号", weight: 7, color: "#e9b86c" },
-  { name: "福雅居·老底子杭帮菜", category: "浙菜", walkMinutes: 2, address: "黄龙体育中心", weight: 8, color: "#a9b981", orangeVDeal: { title: "招牌橙V双人套餐", price: 88 } },
-  { name: "贵州生态牛肉店", category: "贵州牛肉", walkMinutes: 3, address: "西湖北线/黄龙", weight: 8, color: "#f07b45", orangeVDeal: { title: "橙V招牌双人餐", price: 78 } },
-  { name: "Kpro", category: "西式简餐", walkMinutes: 8, address: "黄龙体育中心周边", weight: 5, color: "#f0c83f" },
-  { name: "大鼓米线", category: "米粉/米线", walkMinutes: 4, address: "体中三路1号黄龙华洋体育馆", weight: 8, color: "#d8503f" },
-  { name: "麦当劳", category: "西式快餐", walkMinutes: 8, address: "黄龙体育中心周边", weight: 6, color: "#f0c83f" },
-  { name: "很累海南鸡饭", category: "海南鸡饭", walkMinutes: 9, address: "西湖体育馆周边", weight: 6, color: "#8faeaf" }
+  { name: "惠食记·蘭轩", category: "浙菜", walkDistance: 255, address: "玉古路188号", weight: 8, color: "#e89d55", orangeVDeal: { title: "橙V专享套餐" } },
+  { name: "渔佬佬·海鲜面", category: "面馆", walkDistance: 140, address: "玉古路178号", weight: 8, color: "#d8503f" },
+  { name: "港深潮滋鸡煲坊", category: "港式火锅", walkDistance: 221, address: "黄龙体育中心", weight: 8, color: "#f0c83f", orangeVDeal: { title: "橙V专享双人餐", price: 98 } },
+  { name: "陈先进鱼馆", category: "鱼馆", walkDistance: 566, address: "西湖北线/黄龙", weight: 7, color: "#8faeaf", orangeVDeal: { title: "鱼头煲双人餐", price: 78 } },
+  { name: "同乐坊", category: "中餐", walkDistance: 500, address: "西湖体育馆周边", weight: 7, color: "#86a85a" },
+  { name: "红星牛肉馆", category: "牛肉馆", walkDistance: 420, address: "西湖体育馆周边", weight: 7, color: "#6f9c8a" },
+  { name: "云蒸山雨", category: "中餐", walkDistance: 500, address: "西湖体育馆周边", weight: 7, color: "#e25f56" },
+  { name: "伊北味·清真拉面村", category: "清真面馆", walkDistance: 450, address: "天目山路159-4号", weight: 7, color: "#e9b86c" },
+  { name: "福雅居·老底子杭帮菜", category: "浙菜", walkDistance: 103, address: "黄龙体育中心", weight: 8, color: "#a9b981", orangeVDeal: { title: "招牌橙V双人套餐", price: 88 } },
+  { name: "贵州生态牛肉店", category: "贵州牛肉", walkDistance: 187, address: "西湖北线/黄龙", weight: 8, color: "#f07b45", orangeVDeal: { title: "橙V招牌双人餐", price: 78 } },
+  { name: "Kpro", category: "西式简餐", walkDistance: 600, address: "黄龙体育中心周边", weight: 5, color: "#f0c83f" },
+  { name: "大鼓米线", category: "米粉/米线", walkDistance: 300, address: "体中三路1号黄龙华洋体育馆", weight: 8, color: "#d8503f" },
+  { name: "麦当劳", category: "西式快餐", walkDistance: 600, address: "黄龙体育中心周边", weight: 6, color: "#f0c83f" },
+  { name: "很累海南鸡饭", category: "海南鸡饭", walkDistance: 675, address: "西湖体育馆周边", weight: 6, color: "#8faeaf" }
 ];
 
-const USERS = [
-  { id: "zhang", name: "章" },
-  { id: "hu", name: "胡" },
-  { id: "wang", name: "王" },
-  { id: "le", name: "乐" }
-];
+const AREA_CONFIG = {
+  all: { label: "全部区域", color: "#fffef7" },
+  international: { label: "黄龙国际中心", color: "#e87357" },
+  sports: { label: "黄龙体育中心", color: "#e6c953" },
+  huanggu: { label: "黄姑山路", color: "#7ea990" },
+  other: { label: "其他周边", color: "#93aab0" }
+};
+const AREA_ORDER = ["international", "sports", "huanggu", "other"];
+
+const INTERNATIONAL_RESTAURANTS = new Set([
+  "星平鸡饭", "煮饭佬", "池奈", "豆腐家", "越富南洋", "厨创",
+  "外婆家", "澜爵·LANJOLL", "绿茶餐厅"
+]);
+const HUANGGU_RESTAURANTS = new Set([
+  "馨餐厅", "川味泡菜馆", "姜姜好家庭厨房", "红星牛肉馆",
+  "陈先进鱼馆", "农家土菜馆"
+]);
+const OTHER_RESTAURANTS = new Set([
+  "松木场面馆", "很累海南鸡饭", "惠食记·蘭轩", "同乐坊"
+]);
 
 let restaurants = fallbackRestaurants;
 
@@ -38,13 +52,13 @@ const selectionSummary = document.querySelector("#selection-summary");
 const selectedOnlyToggle = document.querySelector("#selected-only");
 const clearSelectionsButton = document.querySelector("#clear-selections");
 const selectionRule = document.querySelector("#selection-rule");
-const userButtons = [...document.querySelectorAll(".user-button")];
+const areaFilter = document.querySelector("#area-filter");
 
 let isDrawing = false;
 let round = 1;
 let activeIndex = -1;
-let activeUserId = USERS[0].id;
-const userSelections = new Map(USERS.map((user) => [user.id, new Set()]));
+let activeAreaKey = "all";
+const selectedRestaurants = new Set();
 
 const sumWeights = (items) => items.reduce((sum, item) => sum + item.weight, 0);
 
@@ -94,20 +108,88 @@ function layoutTreemap(items, bounds, placements) {
   }, placements);
 }
 
+function getRestaurantAreaKey(restaurant) {
+  if (INTERNATIONAL_RESTAURANTS.has(restaurant.name)) return "international";
+  if (HUANGGU_RESTAURANTS.has(restaurant.name)) return "huanggu";
+  if (OTHER_RESTAURANTS.has(restaurant.name)) return "other";
+  return "sports";
+}
+
+function layoutTreemapByArea(items, bounds, placements) {
+  const areaGroups = AREA_ORDER.map((areaKey) => {
+    const areaItems = items.filter((item) => getRestaurantAreaKey(item) === areaKey);
+    return {
+      name: `area-${areaKey}`,
+      weight: sumWeights(areaItems),
+      items: areaItems
+    };
+  }).filter((group) => group.items.length > 0);
+  const areaPlacements = new Map();
+
+  layoutTreemap(areaGroups, bounds, areaPlacements);
+  areaGroups.forEach((group) => {
+    layoutTreemap(group.items, areaPlacements.get(group.name), placements);
+  });
+}
+
+function getActiveAreaLabel() {
+  return AREA_CONFIG[activeAreaKey].label;
+}
+
+function renderAreaFilters() {
+  areaFilter.replaceChildren();
+
+  Object.entries(AREA_CONFIG).forEach(([areaKey, config]) => {
+    const count = areaKey === "all"
+      ? restaurants.length
+      : restaurants.filter((restaurant) => getRestaurantAreaKey(restaurant) === areaKey).length;
+    const button = document.createElement("button");
+    button.className = "area-filter-button";
+    button.type = "button";
+    button.dataset.area = areaKey;
+    button.dataset.count = count;
+    button.style.setProperty("--area-color", config.color);
+    button.setAttribute("aria-pressed", String(areaKey === activeAreaKey));
+    button.innerHTML = `
+      <span class="area-swatch${areaKey === "all" ? " is-all" : ""}" aria-hidden="true"></span>
+      <span>${config.label}</span>
+      <small>${count}</small>
+    `;
+    areaFilter.appendChild(button);
+  });
+
+  updateAreaFilterUI();
+}
+
+function updateAreaFilterUI() {
+  document.querySelectorAll(".area-filter-button").forEach((button) => {
+    const isActive = button.dataset.area === activeAreaKey;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+    button.disabled = isDrawing || Number(button.dataset.count) === 0;
+  });
+
+  document.querySelectorAll(".restaurant-tile").forEach((tile) => {
+    const isOutsideArea = activeAreaKey !== "all" && tile.dataset.area !== activeAreaKey;
+    tile.classList.toggle("is-area-muted", isOutsideArea);
+  });
+}
+
 function renderTreemap() {
   treemap.replaceChildren();
   const placements = new Map();
-  layoutTreemap(restaurants, { x: 0, y: 0, width: 100, height: 100 }, placements);
+  layoutTreemapByArea(restaurants, { x: 0, y: 0, width: 100, height: 100 }, placements);
 
   restaurants.forEach((restaurant, index) => {
     const bounds = placements.get(restaurant.name);
-    const walkLabel = `步行约 ${restaurant.walkMinutes} 分`;
-    const dealPrice = restaurant.orangeVDeal?.price;
-    const priceLabel = Number.isFinite(dealPrice) ? `套餐 ¥${dealPrice}` : "";
+    const areaKey = getRestaurantAreaKey(restaurant);
+    const area = AREA_CONFIG[areaKey];
+    const walkLabel = `步行 ${restaurant.walkDistance} m`;
     const tile = document.createElement("article");
     const isSmall = restaurant.weight <= 6 || (restaurant.name.length >= 7 && restaurant.weight <= 10);
     tile.className = `restaurant-tile${isSmall ? " is-small" : ""}`;
     tile.dataset.index = index;
+    tile.dataset.area = areaKey;
     tile.tabIndex = 0;
     tile.setAttribute("role", "button");
     tile.setAttribute("aria-pressed", "false");
@@ -115,24 +197,23 @@ function renderTreemap() {
     tile.style.top = `${bounds.y}%`;
     tile.style.width = `${bounds.width}%`;
     tile.style.height = `${bounds.height}%`;
-    tile.style.backgroundColor = restaurant.color;
+    tile.style.backgroundColor = area.color;
     tile.setAttribute(
       "aria-label",
-      `${restaurant.name}，${walkLabel}${priceLabel ? `，${priceLabel}` : ""}，权重 ${restaurant.weight}%`
+      `${restaurant.name}，${area.label}，${walkLabel}，权重 ${restaurant.weight}%`
     );
     tile.innerHTML = `
       <div class="tile-heading">
         <h2 class="tile-name">${restaurant.name}</h2>
         <span class="tile-markers">
           ${restaurant.orangeVDeal ? '<span class="orange-v-badge">橙V</span>' : ""}
-          <span class="tile-voters"></span>
+          <span class="selection-badge" aria-hidden="true"></span>
         </span>
       </div>
       <div class="tile-meta">
         <span class="tile-facts">
           <span class="tile-category">${restaurant.category}</span>
-          <span class="tile-walk"><span class="fact-prefix">步行约 </span>${restaurant.walkMinutes} 分</span>
-          ${priceLabel ? `<strong class="tile-price"><span class="fact-prefix">套餐 </span>¥${dealPrice}</strong>` : ""}
+          <span class="tile-walk"><span class="fact-prefix">步行 </span>${restaurant.walkDistance} m</span>
         </span>
         <span class="tile-weight">${restaurant.weight}<small>%</small></span>
       </div>
@@ -141,29 +222,21 @@ function renderTreemap() {
   });
 
   restaurantCount.textContent = `${restaurants.length} 家`;
+  renderAreaFilters();
   updateSelectionUI();
 }
 
 function getSelectionPool() {
-  const participatingUsers = USERS.filter((user) => userSelections.get(user.id).size > 0);
-  if (!participatingUsers.length) return [];
-
-  const allocations = new Map();
-  const userWeight = 1 / participatingUsers.length;
-  participatingUsers.forEach((user) => {
-    const selectedIndexes = userSelections.get(user.id);
-    const restaurantShare = userWeight / selectedIndexes.size;
-    selectedIndexes.forEach((index) => {
-      allocations.set(index, (allocations.get(index) || 0) + restaurantShare);
-    });
-  });
-
-  return [...allocations].map(([index, weight]) => ({ index, weight }));
+  return [...selectedRestaurants].map((index) => ({ index, weight: 1 }));
 }
 
 function getDrawPool() {
-  if (selectedOnlyToggle.checked) return getSelectionPool();
-  return restaurants.map((restaurant, index) => ({ index, weight: restaurant.weight }));
+  const pool = selectedOnlyToggle.checked
+    ? getSelectionPool()
+    : restaurants.map((restaurant, index) => ({ index, weight: restaurant.weight }));
+
+  if (activeAreaKey === "all") return pool;
+  return pool.filter(({ index }) => getRestaurantAreaKey(restaurants[index]) === activeAreaKey);
 }
 
 function weightedPick(pool) {
@@ -187,62 +260,63 @@ function pickNextHighlight(candidateIndexes) {
   return nextIndex;
 }
 
-function getUsersForRestaurant(index) {
-  return USERS.filter((user) => userSelections.get(user.id).has(index));
-}
-
 function updateSelectionUI() {
-  const selectedIndexes = new Set();
-
-  userButtons.forEach((button) => {
-    const userId = button.dataset.userId;
-    const count = userSelections.get(userId).size;
-    const isCurrent = userId === activeUserId;
-    button.classList.toggle("is-current", isCurrent);
-    button.setAttribute("aria-pressed", String(isCurrent));
-    button.querySelector("small").textContent = count;
-    userSelections.get(userId).forEach((index) => selectedIndexes.add(index));
-  });
-
   document.querySelectorAll(".restaurant-tile").forEach((tile) => {
     const index = Number(tile.dataset.index);
-    const voters = getUsersForRestaurant(index);
-    const selectedByCurrentUser = userSelections.get(activeUserId).has(index);
-    const voterNames = voters.map((user) => user.name).join("、");
-    tile.classList.toggle("is-picked", voters.length > 0);
-    tile.classList.toggle("is-picked-by-current", selectedByCurrentUser);
-    tile.setAttribute("aria-pressed", String(selectedByCurrentUser));
-    tile.querySelector(".tile-voters").innerHTML = voters
-      .map((user) => `<span class="tile-voter user-${user.id}" title="${user.name}已选">${user.name}</span>`)
-      .join("");
-    const selectionText = voters.length ? `，${voterNames}已选` : "，无人选择";
-    tile.setAttribute("aria-label", `${tile.getAttribute("aria-label").replace(/，(?:章|胡|王|乐|、)*已选|，无人选择/g, "")}${selectionText}`);
+    const isSelected = selectedRestaurants.has(index);
+    tile.classList.toggle("is-picked", isSelected);
+    tile.setAttribute("aria-pressed", String(isSelected));
+    tile.querySelector(".selection-badge").textContent = isSelected ? "已选" : "";
+    const selectionText = isSelected ? "，已选" : "，未选";
+    tile.setAttribute("aria-label", `${tile.getAttribute("aria-label").replace(/，(?:已选|未选)$/, "")}${selectionText}`);
   });
 
-  const counts = USERS.map((user) => `${user.name}${userSelections.get(user.id).size}`).join(" · ");
-  selectionSummary.textContent = selectedIndexes.size
-    ? `共选中 ${selectedIndexes.size} 家 · ${counts}`
-    : "还没有人选择餐厅";
-  clearSelectionsButton.disabled = selectedIndexes.size === 0 || isDrawing;
+  selectionSummary.textContent = selectedRestaurants.size
+    ? `已选择 ${selectedRestaurants.size} 家餐厅`
+    : "还没有选择餐厅";
+  clearSelectionsButton.disabled = selectedRestaurants.size === 0 || isDrawing;
 }
 
 function toggleRestaurantSelection(index) {
   if (isDrawing) return;
-  const selections = userSelections.get(activeUserId);
-  if (selections.has(index)) selections.delete(index);
-  else selections.add(index);
+  if (selectedRestaurants.has(index)) selectedRestaurants.delete(index);
+  else selectedRestaurants.add(index);
   updateSelectionUI();
 }
 
 function setSelectionModeCopy() {
   const selectedOnly = selectedOnlyToggle.checked;
-  selectionRule.textContent = selectedOnly ? "用户均权" : "面积 = 概率";
-  buttonLabel.textContent = selectedOnly ? "从已选中抽" : "开始随机";
+  const areaFiltered = activeAreaKey !== "all";
+  const areaLabel = getActiveAreaLabel();
+
+  if (selectedOnly && areaFiltered) {
+    selectionRule.textContent = `已选 ∩ ${areaLabel}`;
+    buttonLabel.textContent = "从交集中抽";
+  } else if (selectedOnly) {
+    selectionRule.textContent = "已选等概率";
+    buttonLabel.textContent = "从已选中抽";
+  } else if (areaFiltered) {
+    selectionRule.textContent = `${areaLabel} · 面积概率`;
+    buttonLabel.textContent = "在此区域抽";
+  } else {
+    selectionRule.textContent = "面积 = 概率";
+    buttonLabel.textContent = "开始随机";
+  }
+
   if (!isDrawing && !result.classList.contains("is-settled")) {
-    resultLabel.textContent = selectedOnly ? "用户选择模式" : "等待开饭";
-    resultDetail.textContent = selectedOnly
-      ? "每位已选择餐厅的用户权重相同，再平均分配到各自选中的餐厅。"
-      : "附近餐厅已经就位，距离越近的餐厅获得略高权重。";
+    if (selectedOnly && areaFiltered) {
+      resultLabel.textContent = "组合筛选模式";
+      resultDetail.textContent = `只在已选择且属于${areaLabel}的餐厅中等概率随机。`;
+    } else if (selectedOnly) {
+      resultLabel.textContent = "已选餐厅模式";
+      resultDetail.textContent = "只在已选择的餐厅中随机，每家餐厅的机会相同。";
+    } else if (areaFiltered) {
+      resultLabel.textContent = "区域随机模式";
+      resultDetail.textContent = `只在${areaLabel}的同色餐厅中按面积权重随机。`;
+    } else {
+      resultLabel.textContent = "等待开饭";
+      resultDetail.textContent = "附近餐厅已经就位，距离越近的餐厅获得略高权重。";
+    }
   }
 }
 
@@ -262,10 +336,13 @@ async function runDraw() {
 
   const drawPool = getDrawPool();
   if (!drawPool.length) {
+    const areaLabel = getActiveAreaLabel();
     result.classList.remove("is-settled");
     resultLabel.textContent = "还不能开抽";
     resultName.textContent = "先选几家吧";
-    resultDetail.textContent = "选择一位用户，再点击餐厅矩形；至少有一位用户完成选择后才能仅抽已选餐厅。";
+    resultDetail.textContent = selectedOnlyToggle.checked && activeAreaKey !== "all"
+      ? `${areaLabel}中没有已选择的餐厅，请选择同色餐厅或切换区域。`
+      : "先点击餐厅矩形完成选择，再开启仅抽已选餐厅。";
     return;
   }
 
@@ -277,9 +354,9 @@ async function runDraw() {
 
   drawButton.disabled = true;
   cornerDrawButton.disabled = true;
-  userButtons.forEach((button) => { button.disabled = true; });
   selectedOnlyToggle.disabled = true;
   clearSelectionsButton.disabled = true;
+  updateAreaFilterUI();
   drawButton.classList.add("is-running");
   buttonLabel.textContent = "正在选择";
   treemap.classList.remove("has-winner");
@@ -303,42 +380,53 @@ async function runDraw() {
   winnerTile.classList.add("is-winner");
   treemap.classList.remove("is-drawing");
   treemap.classList.add("has-winner");
-  resultLabel.textContent = selectedOnlyToggle.checked ? "用户均权结果" : "就是这里，不许反悔";
+  const areaFiltered = activeAreaKey !== "all";
+  resultLabel.textContent = selectedOnlyToggle.checked && areaFiltered
+    ? "组合筛选结果"
+    : selectedOnlyToggle.checked
+      ? "已选餐厅结果"
+      : areaFiltered
+        ? "区域随机结果"
+        : "就是这里，不许反悔";
   resultName.textContent = winner.name;
   const deal = winner.orangeVDeal;
-  const selectedPrice = Number.isFinite(deal?.price) ? ` · ¥${deal.price}` : "";
-  const originalPrice = Number.isFinite(deal?.originalPrice) ? `（原价 ¥${deal.originalPrice}）` : "";
   const dealText = deal
-    ? ` · 套餐：${deal.title}${selectedPrice}${originalPrice}`
+    ? ` · 套餐：${deal.title}`
     : " · 暂无已录入套餐";
-  const voterNames = getUsersForRestaurant(winnerIndex).map((user) => user.name).join("、");
-  const voterText = selectedOnlyToggle.checked ? ` · ${voterNames}选中` : "";
-  resultDetail.textContent = `${winner.category} · 步行约 ${winner.walkMinutes} 分钟 · ${winner.address}${voterText}${dealText}。现在出发。`;
+  const areaText = ` · ${AREA_CONFIG[getRestaurantAreaKey(winner)].label}`;
+  resultDetail.textContent = `${winner.category}${areaText} · 步行 ${winner.walkDistance} m · ${winner.address}${dealText}。现在出发。`;
   result.classList.add("is-settled");
 
   round += 1;
   roundLabel.textContent = `ROUND ${String(round).padStart(2, "0")}`;
-  buttonLabel.textContent = selectedOnlyToggle.checked ? "从已选再抽" : "再来一次";
+  buttonLabel.textContent = selectedOnlyToggle.checked && areaFiltered
+    ? "从交集再抽"
+    : selectedOnlyToggle.checked
+      ? "从已选再抽"
+      : areaFiltered
+        ? "在此区域再抽"
+        : "再来一次";
   drawButton.disabled = false;
   cornerDrawButton.disabled = false;
-  userButtons.forEach((button) => { button.disabled = false; });
   selectedOnlyToggle.disabled = false;
   drawButton.classList.remove("is-running");
   isDrawing = false;
+  updateAreaFilterUI();
   updateSelectionUI();
 }
 
 drawButton.addEventListener("click", runDraw);
 cornerDrawButton.addEventListener("click", runDraw);
-userButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    activeUserId = button.dataset.userId;
-    updateSelectionUI();
-  });
-});
 selectedOnlyToggle.addEventListener("change", setSelectionModeCopy);
+areaFilter.addEventListener("click", (event) => {
+  const button = event.target.closest(".area-filter-button");
+  if (!button || button.disabled || isDrawing) return;
+  activeAreaKey = button.dataset.area;
+  updateAreaFilterUI();
+  setSelectionModeCopy();
+});
 clearSelectionsButton.addEventListener("click", () => {
-  userSelections.forEach((selections) => selections.clear());
+  selectedRestaurants.clear();
   updateSelectionUI();
 });
 treemap.addEventListener("click", (event) => {
@@ -365,7 +453,7 @@ function isValidRestaurant(restaurant) {
   return restaurant
     && typeof restaurant.name === "string"
     && typeof restaurant.category === "string"
-    && Number.isFinite(restaurant.walkMinutes)
+    && Number.isFinite(restaurant.walkDistance)
     && Number.isFinite(restaurant.weight)
     && restaurant.weight > 0;
 }

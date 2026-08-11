@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="从杭州西湖体育馆出发，在步行十五分钟范围内随机选择真实餐厅。">
+  <meta name="description" content="从杭州西湖体育馆出发，在步行一千米范围内随机选择真实餐厅。">
   <title>今天吃什么 · 西湖体育馆附近餐厅</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260811-areas-v2">
 </head>
 <body>
   <main class="app-shell">
@@ -16,7 +16,7 @@
       </a>
       <div class="header-meta">
         <span class="status-dot" aria-hidden="true"></span>
-        <span>西湖体育馆 · 步行 15 分钟</span>
+        <span>西湖体育馆 · 步行 1000 m 内</span>
         <span class="restaurant-count" id="restaurant-count">10 家</span>
       </div>
     </header>
@@ -27,42 +27,26 @@
           <div>
             <h1 id="page-title">走出体育馆，<br>让运气带路。</h1>
           </div>
-          <p>含步行约 15 分钟内餐厅，以及点评橙V 1 km 内套餐门店。<br>面积越大，被选中的概率越高。</p>
+          <p>含步行约 1000 m 内餐厅，以及点评橙V 1 km 内套餐门店。<br>面积越大，被选中的概率越高。</p>
         </div>
 
-        <section class="vote-toolbar" aria-label="用户餐厅选择">
+        <section class="vote-toolbar" aria-label="餐厅选择">
           <div class="vote-intro">
-            <span>先选人，再点餐厅</span>
-            <p id="selection-summary">还没有人选择餐厅</p>
-          </div>
-          <div class="user-switcher" role="group" aria-label="当前选择用户">
-            <button class="user-button is-current" type="button" data-user-id="zhang" aria-pressed="true" aria-label="选择用户章">
-              <span class="user-avatar user-zhang" aria-hidden="true">章</span>
-              <small>0</small>
-            </button>
-            <button class="user-button" type="button" data-user-id="hu" aria-pressed="false" aria-label="选择用户胡">
-              <span class="user-avatar user-hu" aria-hidden="true">胡</span>
-              <small>0</small>
-            </button>
-            <button class="user-button" type="button" data-user-id="wang" aria-pressed="false" aria-label="选择用户王">
-              <span class="user-avatar user-wang" aria-hidden="true">王</span>
-              <small>0</small>
-            </button>
-            <button class="user-button" type="button" data-user-id="le" aria-pressed="false" aria-label="选择用户乐">
-              <span class="user-avatar user-le" aria-hidden="true">乐</span>
-              <small>0</small>
-            </button>
+            <span>点击餐厅进行选择</span>
+            <p id="selection-summary">还没有选择餐厅</p>
           </div>
           <label class="selected-only-control" for="selected-only">
             <input id="selected-only" type="checkbox">
             <span class="toggle-track" aria-hidden="true"><span></span></span>
             <span class="toggle-copy">
               <strong>仅抽已选</strong>
-              <small>用户均权</small>
+              <small>等概率</small>
             </span>
           </label>
           <button class="clear-selections" id="clear-selections" type="button" disabled>清空</button>
         </section>
+
+        <nav class="area-filter" id="area-filter" aria-label="按区域颜色筛选随机范围"></nav>
 
         <div class="treemap-wrap">
           <div class="treemap" id="treemap" aria-label="按权重显示的餐厅矩形地图"></div>
@@ -106,6 +90,6 @@
     </section>
   </main>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=20260811-distance-v1"></script>
 </body>
 </html>
