@@ -23,23 +23,13 @@
       "color": "#f0c83f"
     },
     {
-      "name": "馨餐厅",
-      "category": "中餐",
-      "walkMinutes": 9,
-      "walkDistance": 670,
-      "address": "学院路50号",
-      "location": [120.13056, 30.27364],
-      "weight": 3,
-      "color": "#86a85a"
-    },
-    {
       "name": "川味泡菜馆",
       "category": "川菜",
       "walkMinutes": 11,
       "walkDistance": 820,
       "address": "黄姑山路11号",
       "location": [120.133432, 30.274247],
-      "weight": 3,
+      "weight": 4,
       "color": "#6f9c8a"
     },
     {
@@ -59,7 +49,7 @@
       "walkDistance": 566,
       "distanceLabel": "点评约 566 m",
       "address": "西湖北线/黄龙",
-      "weight": 3,
+      "weight": 2,
       "color": "#8faeaf",
       "orangeVDeal": {
         "title": "陈先进主厨选钱江源鱼头煲/土烧杂鱼双人餐",
@@ -74,7 +64,7 @@
       "walkDistance": 820,
       "distanceLabel": "黄姑山路周边，距离待复核",
       "address": "黄姑山路周边",
-      "weight": 3,
+      "weight": 4,
       "color": "#7ea990"
     },
     {
@@ -131,7 +121,7 @@
       "walkDistance": 420,
       "distanceLabel": "周边距离待复核",
       "address": "西湖体育馆周边",
-      "weight": 3,
+      "weight": 4,
       "color": "#86a85a"
     },
     {
@@ -190,7 +180,7 @@
       "walkDistance": 722,
       "distanceLabel": "点评约 722 m",
       "address": "文三路沿线",
-      "weight": 3,
+      "weight": 4,
       "color": "#8faeaf",
       "orangeVDeal": {
         "title": "江西小炒招牌双人餐",

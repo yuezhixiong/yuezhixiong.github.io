@@ -227,16 +227,38 @@ a {
   font-size: 8px;
 }
 
-.clear-selections {
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.toolbar-action {
   padding: 7px 9px;
   border: 1px solid var(--ink);
   color: var(--ink);
   background: transparent;
   cursor: pointer;
   font: 700 9px/1 inherit;
+  transition: background-color 140ms ease, color 140ms ease, transform 140ms ease;
 }
 
-.clear-selections:disabled {
+.toolbar-action:hover:not(:disabled) {
+  transform: translateY(-1px);
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.toolbar-start {
+  background: var(--acid);
+}
+
+.toolbar-action:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.toolbar-action:disabled {
   cursor: default;
   opacity: 0.3;
 }
@@ -640,6 +662,76 @@ a {
   animation: result-rise 500ms ease both;
 }
 
+.draw-history {
+  margin: 0 0 20px;
+  padding: 12px 0 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.draw-history-heading {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.draw-history-heading h3,
+.draw-history-heading span {
+  margin: 0;
+  color: rgba(255, 254, 247, 0.55);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+.draw-history-heading h3 {
+  text-transform: uppercase;
+}
+
+.draw-history-list {
+  display: grid;
+  max-height: 92px;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+  overflow-y: auto;
+  list-style: none;
+  scrollbar-width: thin;
+}
+
+.draw-history-list li:not(.draw-history-empty) {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 10px;
+}
+
+.draw-history-list li > span,
+.draw-history-list li > small,
+.draw-history-empty {
+  color: rgba(255, 254, 247, 0.5);
+}
+
+.draw-history-list li > strong {
+  overflow: hidden;
+  color: var(--white);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.draw-history-list li > small {
+  font-size: 8px;
+  white-space: nowrap;
+}
+
+.draw-history-empty {
+  font-size: 10px;
+}
+
 .weight-legend {
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -838,7 +930,8 @@ a {
     justify-self: start;
   }
 
-  .clear-selections {
+  .toolbar-actions {
+    grid-column: 1 / -1;
     justify-self: end;
   }
 

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="从杭州西湖体育馆出发，在步行一千米范围内随机选择真实餐厅。">
   <title>今天吃什么 · 西湖体育馆附近餐厅</title>
-  <link rel="stylesheet" href="styles.css?v=20260811-areas-v2">
+  <link rel="stylesheet" href="styles.css?v=20260811-history-v4">
 </head>
 <body>
   <main class="app-shell">
@@ -43,7 +43,11 @@
               <small>等概率</small>
             </span>
           </label>
-          <button class="clear-selections" id="clear-selections" type="button" disabled>清空</button>
+          <div class="toolbar-actions" aria-label="选择操作">
+            <button class="toolbar-action" id="clear-selections" type="button" disabled>清空</button>
+            <button class="toolbar-action" id="reset-selection" type="button">重置</button>
+            <button class="toolbar-action toolbar-start" id="toolbar-draw-button" type="button">开始</button>
+          </div>
         </section>
 
         <nav class="area-filter" id="area-filter" aria-label="按区域颜色筛选随机范围"></nav>
@@ -65,6 +69,16 @@
           <h2 id="result-name">会是哪一家？</h2>
           <p class="result-detail" id="result-detail">附近餐厅已经就位，距离越近的餐厅获得略高权重。</p>
         </div>
+
+        <section class="draw-history" aria-labelledby="draw-history-title">
+          <div class="draw-history-heading">
+            <h3 id="draw-history-title">随机记录</h3>
+            <span id="draw-history-count">0 轮</span>
+          </div>
+          <ol class="draw-history-list" id="draw-history-list">
+            <li class="draw-history-empty">还没有抽签记录</li>
+          </ol>
+        </section>
 
         <div class="weight-legend">
           <span>低权重</span>
@@ -90,6 +104,6 @@
     </section>
   </main>
 
-  <script src="app.js?v=20260811-distance-v1"></script>
+  <script src="app.js?v=20260811-history-v4"></script>
 </body>
 </html>

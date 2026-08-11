@@ -2,9 +2,9 @@ const fallbackRestaurants = [
   { name: "惠食记·蘭轩", category: "浙菜", walkDistance: 255, address: "玉古路188号", weight: 8, color: "#e89d55", orangeVDeal: { title: "橙V专享套餐" } },
   { name: "渔佬佬·海鲜面", category: "面馆", walkDistance: 140, address: "玉古路178号", weight: 8, color: "#d8503f" },
   { name: "港深潮滋鸡煲坊", category: "港式火锅", walkDistance: 221, address: "黄龙体育中心", weight: 8, color: "#f0c83f", orangeVDeal: { title: "橙V专享双人餐", price: 98 } },
-  { name: "陈先进鱼馆", category: "鱼馆", walkDistance: 566, address: "西湖北线/黄龙", weight: 7, color: "#8faeaf", orangeVDeal: { title: "鱼头煲双人餐", price: 78 } },
+  { name: "陈先进鱼馆", category: "鱼馆", walkDistance: 566, address: "西湖北线/黄龙", weight: 6, color: "#8faeaf", orangeVDeal: { title: "鱼头煲双人餐", price: 78 } },
   { name: "同乐坊", category: "中餐", walkDistance: 500, address: "西湖体育馆周边", weight: 7, color: "#86a85a" },
-  { name: "红星牛肉馆", category: "牛肉馆", walkDistance: 420, address: "西湖体育馆周边", weight: 7, color: "#6f9c8a" },
+  { name: "红星牛肉馆", category: "牛肉馆", walkDistance: 420, address: "西湖体育馆周边", weight: 8, color: "#6f9c8a" },
   { name: "云蒸山雨", category: "中餐", walkDistance: 500, address: "西湖体育馆周边", weight: 7, color: "#e25f56" },
   { name: "伊北味·清真拉面村", category: "清真面馆", walkDistance: 450, address: "天目山路159-4号", weight: 7, color: "#e9b86c" },
   { name: "福雅居·老底子杭帮菜", category: "浙菜", walkDistance: 103, address: "黄龙体育中心", weight: 8, color: "#a9b981", orangeVDeal: { title: "招牌橙V双人套餐", price: 88 } },
@@ -17,8 +17,8 @@ const fallbackRestaurants = [
 
 const AREA_CONFIG = {
   all: { label: "全部区域", color: "#fffef7" },
-  international: { label: "黄龙国际中心", color: "#e87357" },
-  sports: { label: "黄龙体育中心", color: "#e6c953" },
+  international: { label: "黄龙国际", color: "#e87357" },
+  sports: { label: "黄龙体育", color: "#e6c953" },
   huanggu: { label: "黄姑山路", color: "#7ea990" },
   other: { label: "其他周边", color: "#93aab0" }
 };
@@ -29,7 +29,7 @@ const INTERNATIONAL_RESTAURANTS = new Set([
   "外婆家", "澜爵·LANJOLL", "绿茶餐厅"
 ]);
 const HUANGGU_RESTAURANTS = new Set([
-  "馨餐厅", "川味泡菜馆", "姜姜好家庭厨房", "红星牛肉馆",
+  "川味泡菜馆", "姜姜好家庭厨房", "红星牛肉馆",
   "陈先进鱼馆", "农家土菜馆"
 ]);
 const OTHER_RESTAURANTS = new Set([
@@ -51,6 +51,10 @@ const restaurantCount = document.querySelector("#restaurant-count");
 const selectionSummary = document.querySelector("#selection-summary");
 const selectedOnlyToggle = document.querySelector("#selected-only");
 const clearSelectionsButton = document.querySelector("#clear-selections");
+const resetSelectionButton = document.querySelector("#reset-selection");
+const toolbarDrawButton = document.querySelector("#toolbar-draw-button");
+const drawHistoryList = document.querySelector("#draw-history-list");
+const drawHistoryCount = document.querySelector("#draw-history-count");
 const selectionRule = document.querySelector("#selection-rule");
 const areaFilter = document.querySelector("#area-filter");
 
@@ -59,6 +63,7 @@ let round = 1;
 let activeIndex = -1;
 let activeAreaKey = "all";
 const selectedRestaurants = new Set();
+const drawHistory = [];
 
 const sumWeights = (items) => items.reduce((sum, item) => sum + item.weight, 0);
 
@@ -331,6 +336,53 @@ function wait(duration) {
   return new Promise((resolve) => window.setTimeout(resolve, duration));
 }
 
+function renderDrawHistory() {
+  drawHistoryList.replaceChildren();
+  drawHistoryCount.textContent = `${drawHistory.length} 轮`;
+
+  if (!drawHistory.length) {
+    const emptyItem = document.createElement("li");
+    emptyItem.className = "draw-history-empty";
+    emptyItem.textContent = "还没有抽签记录";
+    drawHistoryList.appendChild(emptyItem);
+    return;
+  }
+
+  [...drawHistory].reverse().forEach((entry) => {
+    const item = document.createElement("li");
+    item.innerHTML = `
+      <span>${String(entry.round).padStart(2, "0")}</span>
+      <strong>${entry.name}</strong>
+      <small>${entry.area}</small>
+    `;
+    drawHistoryList.appendChild(item);
+  });
+}
+
+function resetSelectionState() {
+  if (isDrawing) return;
+
+  selectedRestaurants.clear();
+  selectedOnlyToggle.checked = false;
+  activeAreaKey = "all";
+  activeIndex = -1;
+  drawHistory.length = 0;
+  round = 1;
+  roundLabel.textContent = "ROUND 01";
+  treemap.classList.remove("is-drawing", "has-winner");
+  document.querySelectorAll(".restaurant-tile").forEach((tile) => {
+    tile.classList.remove("is-active", "is-winner");
+  });
+  result.classList.remove("is-settled");
+  resultLabel.textContent = "等待开饭";
+  resultName.textContent = "会是哪一家？";
+  resultDetail.textContent = "附近餐厅已经就位，距离越近的餐厅获得略高权重。";
+  updateAreaFilterUI();
+  updateSelectionUI();
+  renderDrawHistory();
+  setSelectionModeCopy();
+}
+
 async function runDraw() {
   if (isDrawing) return;
 
@@ -354,6 +406,8 @@ async function runDraw() {
 
   drawButton.disabled = true;
   cornerDrawButton.disabled = true;
+  toolbarDrawButton.disabled = true;
+  resetSelectionButton.disabled = true;
   selectedOnlyToggle.disabled = true;
   clearSelectionsButton.disabled = true;
   updateAreaFilterUI();
@@ -396,6 +450,12 @@ async function runDraw() {
   const areaText = ` · ${AREA_CONFIG[getRestaurantAreaKey(winner)].label}`;
   resultDetail.textContent = `${winner.category}${areaText} · 步行 ${winner.walkDistance} m · ${winner.address}${dealText}。现在出发。`;
   result.classList.add("is-settled");
+  drawHistory.push({
+    round,
+    name: winner.name,
+    area: AREA_CONFIG[getRestaurantAreaKey(winner)].label
+  });
+  renderDrawHistory();
 
   round += 1;
   roundLabel.textContent = `ROUND ${String(round).padStart(2, "0")}`;
@@ -408,6 +468,8 @@ async function runDraw() {
         : "再来一次";
   drawButton.disabled = false;
   cornerDrawButton.disabled = false;
+  toolbarDrawButton.disabled = false;
+  resetSelectionButton.disabled = false;
   selectedOnlyToggle.disabled = false;
   drawButton.classList.remove("is-running");
   isDrawing = false;
@@ -417,6 +479,8 @@ async function runDraw() {
 
 drawButton.addEventListener("click", runDraw);
 cornerDrawButton.addEventListener("click", runDraw);
+toolbarDrawButton.addEventListener("click", runDraw);
+resetSelectionButton.addEventListener("click", resetSelectionState);
 selectedOnlyToggle.addEventListener("change", setSelectionModeCopy);
 areaFilter.addEventListener("click", (event) => {
   const button = event.target.closest(".area-filter-button");
@@ -481,11 +545,13 @@ async function loadRestaurants() {
 async function initialize() {
   drawButton.disabled = true;
   cornerDrawButton.disabled = true;
+  toolbarDrawButton.disabled = true;
   restaurants = await loadRestaurants();
   renderTreemap();
   setSelectionModeCopy();
   drawButton.disabled = false;
   cornerDrawButton.disabled = false;
+  toolbarDrawButton.disabled = false;
 }
 
 initialize();
